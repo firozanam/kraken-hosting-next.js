@@ -1,0 +1,14 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": ["WHMCS", "whmcs", "responsetype"],
+  "flagWords": [],
+  "ignorePaths": [
+    "node_modules/**",
+    ".next/**",
+    "dist/**",
+    "build/**",
+    "package-lock.json",
+    "yarn.lock"
+  ]
+}
