@@ -4,19 +4,19 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800">
+    <footer className="bg-background border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Hosting Section */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider mb-4">
+            <h3 className="text-sm font-semibold text-foreground uppercase tracking-wider mb-4">
               Hosting
             </h3>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="/hosting"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Shared Hosting
                 </Link>
@@ -24,7 +24,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/dedicated"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Dedicated Server
                 </Link>
@@ -32,7 +32,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/vps"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Cloud Virtual (VPS)
                 </Link>
@@ -40,7 +40,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/media-servers"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Media Servers
                 </Link>
@@ -50,14 +50,14 @@ const Footer = () => {
 
           {/* Support Section */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider mb-4">
+            <h3 className="text-sm font-semibold text-foreground uppercase tracking-wider mb-4">
               Support
             </h3>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="/client-area"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Client Area
                 </Link>
@@ -65,7 +65,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/contact"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Contact Us
                 </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/support-ticket"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Support Ticket
                 </Link>
@@ -81,7 +81,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/knowledge-base"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Knowledge Base
                 </Link>
@@ -89,7 +89,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/faq"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   FAQ
                 </Link>
@@ -99,14 +99,14 @@ const Footer = () => {
 
           {/* Legal Section */}
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 dark:text-white uppercase tracking-wider mb-4">
+            <h3 className="text-sm font-semibold text-foreground uppercase tracking-wider mb-4">
               Legal
             </h3>
             <ul className="space-y-3">
               <li>
                 <Link
                   href="/about"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   About Us
                 </Link>
@@ -114,7 +114,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/terms-conditions"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Terms & Conditions
                 </Link>
@@ -122,7 +122,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/copyright-disclaimer"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Copyright & Disclaimer
                 </Link>
@@ -130,7 +130,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/service-level-agreement"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Service Level Agreement
                 </Link>
@@ -138,7 +138,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/acceptable-use-policy"
-                  className="text-base text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
+                  className="text-base text-muted-foreground hover:text-foreground"
                 >
                   Acceptable Use Policy (AUP)
                 </Link>
@@ -150,14 +150,14 @@ const Footer = () => {
           <div>
             <div className="flex flex-col">
               <div className="mb-4">
-                <span className="text-xl font-bold text-black dark:text-white">
+                <span className="text-xl font-bold text-foreground">
                   Kraken Hosting
                 </span>
               </div>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">
+              <p className="text-sm text-muted-foreground mb-2">
                 © Copyright 2025 | Kraken Hosting
               </p>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
+              <p className="text-xs text-muted-foreground">
                 Operated by Northlayer Web Services LLC, a subsidiary of
                 PixelPilot Holdings LLC.
               </p>
@@ -166,8 +166,8 @@ const Footer = () => {
         </div>
 
         {/* Bottom border and copyright line */}
-        <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
-          <p className="text-center text-sm text-gray-500 dark:text-gray-400">
+        <div className="mt-12 pt-8 border-t border-border">
+          <p className="text-center text-sm text-muted-foreground">
             © Copyright 2025 | Kraken Hosting. Operated by Northlayer Web
             Services LLC, a subsidiary of PixelPilot Holdings LLC.
           </p>

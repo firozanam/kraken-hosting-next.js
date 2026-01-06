@@ -27,7 +27,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-800">
+    <nav className="bg-background border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           {/* Logo on the left */}
@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className="flex-shrink-0 flex items-center">
               <Link
                 href="/"
-                className="text-xl font-bold text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+                className="text-xl font-bold text-foreground hover:text-muted-foreground"
               >
                 Kraken Hosting
               </Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
               <div className="relative">
                 <button
                   onClick={toggleHostingMenu}
-                  className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-900 dark:text-white hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-300"
+                  className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-foreground hover:border-border hover:text-muted-foreground"
                 >
                   Hosting
                   <ChevronDown
@@ -58,17 +58,17 @@ const Navbar = () => {
                 </button>
 
                 {hostingMenuOpen && (
-                  <div className="origin-top-left absolute left-0 mt-2 w-64 rounded-md shadow-lg py-1 bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5 focus:outline-none z-50">
+                  <div className="origin-top-left absolute left-0 mt-2 w-64 rounded-md shadow-lg py-1 bg-popover ring-1 ring-border focus:outline-none z-50">
                     <Link
                       href="/hosting"
-                      className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className="block px-4 py-2 text-sm text-popover-foreground hover:bg-muted"
                       onClick={closeAllMenus}
                     >
                       Budget Shared Hosting
                     </Link>
                     <Link
                       href="/privacy-hosting"
-                      className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className="block px-4 py-2 text-sm text-popover-foreground hover:bg-muted"
                       onClick={closeAllMenus}
                     >
                       Privacy Focused Shared Hosting
@@ -81,7 +81,7 @@ const Navbar = () => {
               <div className="relative">
                 <button
                   onClick={toggleServersMenu}
-                  className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-900 dark:text-white hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-300"
+                  className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-foreground hover:border-border hover:text-muted-foreground"
                 >
                   Servers
                   <ChevronDown
@@ -90,24 +90,24 @@ const Navbar = () => {
                 </button>
 
                 {serversMenuOpen && (
-                  <div className="origin-top-left absolute left-0 mt-2 w-64 rounded-md shadow-lg py-1 bg-white dark:bg-gray-800 ring-1 ring-black ring-opacity-5 focus:outline-none z-50">
+                  <div className="origin-top-left absolute left-0 mt-2 w-64 rounded-md shadow-lg py-1 bg-popover ring-1 ring-border focus:outline-none z-50">
                     <Link
                       href="/vps"
-                      className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className="block px-4 py-2 text-sm text-popover-foreground hover:bg-muted"
                       onClick={closeAllMenus}
                     >
                       Cloud VPS
                     </Link>
                     <Link
                       href="/dedicated"
-                      className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className="block px-4 py-2 text-sm text-popover-foreground hover:bg-muted"
                       onClick={closeAllMenus}
                     >
                       Dedicated Server
                     </Link>
                     <Link
                       href="/media-servers"
-                      className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className="block px-4 py-2 text-sm text-popover-foreground hover:bg-muted"
                       onClick={closeAllMenus}
                     >
                       Media Server
@@ -119,7 +119,7 @@ const Navbar = () => {
               {/* VPN Menu */}
               <Link
                 href="/vpn"
-                className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-gray-900 dark:text-white hover:border-gray-300 hover:text-gray-700 dark:hover:text-gray-300"
+                className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium text-foreground hover:border-border hover:text-muted-foreground"
                 onClick={closeAllMenus}
               >
                 VPN
@@ -131,12 +131,12 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="hidden md:flex md:items-center md:space-x-4">
               {/* Language Button */}
-              <button className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-200 focus:outline-none">
+              <button className="p-2 rounded-full text-foreground hover:text-muted-foreground focus:outline-none">
                 <Globe className="h-5 w-5" />
               </button>
 
               {/* Currency Button */}
-              <button className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-200 focus:outline-none">
+              <button className="p-2 rounded-full text-foreground hover:text-muted-foreground focus:outline-none">
                 <DollarSign className="h-5 w-5" />
               </button>
 
@@ -150,7 +150,7 @@ const Navbar = () => {
             {/* Mobile menu button */}
             <div className="md:hidden flex items-center">
               <button
-                className="p-2 rounded-md text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-200 focus:outline-none"
+                className="p-2 rounded-md text-foreground hover:text-muted-foreground focus:outline-none"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               >
                 <svg
@@ -177,9 +177,9 @@ const Navbar = () => {
         <div className="md:hidden">
           <div className="pt-2 pb-3 space-y-1 px-4">
             {/* Hosting Menu in Mobile */}
-            <div className="border-b border-gray-200 dark:border-gray-700 pb-2">
+            <div className="border-b border-border pb-2">
               <button
-                className="flex items-center justify-between w-full px-3 py-2 text-base font-medium text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+                className="flex items-center justify-between w-full px-3 py-2 text-base font-medium text-foreground hover:text-muted-foreground"
                 onClick={toggleHostingMenu}
               >
                 <span>Hosting</span>
@@ -192,7 +192,7 @@ const Navbar = () => {
                 <div className="pl-4 mt-1 space-y-1">
                   <Link
                     href="/hosting"
-                    className="block px-3 py-2 text-base text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md"
+                    className="block px-3 py-2 text-base text-foreground hover:bg-muted rounded-md"
                     onClick={() => {
                       closeAllMenus();
                       setMobileMenuOpen(false);
@@ -202,7 +202,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     href="/privacy-hosting"
-                    className="block px-3 py-2 text-base text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md"
+                    className="block px-3 py-2 text-base text-foreground hover:bg-muted rounded-md"
                     onClick={() => {
                       closeAllMenus();
                       setMobileMenuOpen(false);
@@ -215,9 +215,9 @@ const Navbar = () => {
             </div>
 
             {/* Servers Menu in Mobile */}
-            <div className="border-b border-gray-200 dark:border-gray-700 pb-2">
+            <div className="border-b border-border pb-2">
               <button
-                className="flex items-center justify-between w-full px-3 py-2 text-base font-medium text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+                className="flex items-center justify-between w-full px-3 py-2 text-base font-medium text-foreground hover:text-muted-foreground"
                 onClick={toggleServersMenu}
               >
                 <span>Servers</span>
@@ -230,7 +230,7 @@ const Navbar = () => {
                 <div className="pl-4 mt-1 space-y-1">
                   <Link
                     href="/vps"
-                    className="block px-3 py-2 text-base text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md"
+                    className="block px-3 py-2 text-base text-foreground hover:bg-muted rounded-md"
                     onClick={() => {
                       closeAllMenus();
                       setMobileMenuOpen(false);
@@ -240,7 +240,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     href="/dedicated"
-                    className="block px-3 py-2 text-base text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md"
+                    className="block px-3 py-2 text-base text-foreground hover:bg-muted rounded-md"
                     onClick={() => {
                       closeAllMenus();
                       setMobileMenuOpen(false);
@@ -250,7 +250,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     href="/media-servers"
-                    className="block px-3 py-2 text-base text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-md"
+                    className="block px-3 py-2 text-base text-foreground hover:bg-muted rounded-md"
                     onClick={() => {
                       closeAllMenus();
                       setMobileMenuOpen(false);
@@ -265,7 +265,7 @@ const Navbar = () => {
             {/* VPN Menu in Mobile */}
             <Link
               href="/vpn"
-              className="block px-3 py-2 text-base font-medium text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
+              className="block px-3 py-2 text-base font-medium text-foreground hover:text-muted-foreground"
               onClick={() => {
                 closeAllMenus();
                 setMobileMenuOpen(false);
@@ -277,14 +277,14 @@ const Navbar = () => {
             {/* Right side controls in Mobile */}
             <div className="flex items-center justify-between pt-4 pb-2">
               <div className="flex space-x-4">
-                <button className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-200">
+                <button className="p-2 rounded-full text-foreground hover:text-muted-foreground">
                   <Globe className="h-5 w-5" />
                 </button>
-                <button className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-200">
+                <button className="p-2 rounded-full text-foreground hover:text-muted-foreground">
                   <DollarSign className="h-5 w-5" />
                 </button>
               </div>
-              <button className="flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+              <button className="flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-primary-foreground bg-primary hover:bg-primary/90">
                 <User className="h-4 w-4 mr-2" />
                 Client Area
               </button>
