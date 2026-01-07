@@ -1,0 +1,150 @@
+{
+    "Hero": {
+        "title": "Hosting Without Limits",
+        "subtitle": "Take your Digital presence to the next level with our LiteSpeed Hosting plans and experience our 5x faster loading times than competing services. We love to get compared.",
+        "cta_primary": "View plans",
+        "features": [
+            "99.99% Uptime Guarantee",
+            "Enjoy Unlimited Bandwidth",
+            "Free DDoS Protection",
+            "24/7 Expert Support"
+        ],
+        "pricing": {
+            "first_year": "First year",
+            "price": "€9.00",
+            "period": "per year",
+            "original_price": "€54.00 per year"
+        }
+    },
+    "DomainSearch": {
+        "title": "Everything starts with a <span>domain name...</span>",
+        "subtitle": "Register unique, memorable domains in seconds.",
+        "placeholder": "Get the best domain for your website",
+        "cta_button": "Search",
+        "tlds": {
+            "se": {
+                "price": "Register: €0.46",
+                "promo": "Free for life with Hosting"
+            },
+            "com": {
+                "price": "Register: €7",
+                "promo": "Free for life with Hosting"
+            },
+            "es": {
+                "price": "Register: €1.99",
+                "promo": "Free for life with Hosting"
+            }
+        }
+    },
+    "PricingPlans": {
+        "title": "Web Hosting Plans That Scale With You",
+        "subtitle": "Web hosting options designed for speed, uptime, and global infrastructure reliability.",
+        "managed_server": "Managed server",
+        "order_now": "Order now",
+        "plans": {
+            "shared_starter": {
+                "name": "Shared Starter",
+                "description": "The ideal starting point into your digital journey",
+                "price": "€9",
+                "period": "per year",
+                "original_price": "€54.00 per year",
+                "first_year": "First Year",
+                "features": [
+                    "3 Website",
+                    "50 GB NVMe SSD",
+                    "Free WordPress Manager",
+                    "10 Email Accounts",
+                    "WordPress Acceleration",
+                    "WP-CL",
+                    "Databases - 50"
+                ]
+            },
+            "vps_starter": {
+                "name": "Kraken VPS Starter",
+                "description": "Perfect affordable hosting for beginners",
+                "price": "€12",
+                "period": "/month",
+                "original_price": "€110.00 per year",
+                "features": [
+                    "2 vCores @ 4.20+ GHz",
+                    "3 GB DDR5 RAM",
+                    "75 GB NVMe SSD Storage",
+                    "Unmetered Bandwidth @ 10 Gbit/s (fair-use)",
+                    "1 IPv4 Address"
+                ]
+            },
+            "webhosting_growster": {
+                "name": "Webhosting Growster",
+                "description": "Advanced resources for expanding projects.",
+                "price": "€29.00",
+                "period": "per year",
+                "original_price": "€220.00 per year",
+                "first_year": "First Year",
+                "features": [
+                    "100 Websites",
+                    "250 GB NVMe SSD",
+                    "Free WordPress Manager",
+                    "Free Emails",
+                    "WordPress Acceleration",
+                    "WordPress Multisite",
+                    "WP-CLI",
+                    "Unlimited Databases"
+                ]
+            },
+            "kraken_web_hosting": {
+                "name": "Kraken Web hosting",
+                "description": "For those who demand peak performance – unleash the Kraken in your hosting.",
+                "price": "€60.00",
+                "period": "per year",
+                "original_price": "€349.00 per year",
+                "first_year": "First Year",
+                "features": [
+                    "300 Websites",
+                    "500 GB NVMe SSD",
+                    "Free WordPress Manager",
+                    "Free Emails",
+                    "WordPress Acceleration",
+                    "WordPress Multisite",
+                    "WP-CLI",
+                    "Unlimited Databases"
+                ]
+            }
+        }
+    },
+    "UltraFastHosting": {
+        "title": "The Only Hosting Provider You'll Need",
+        "subtitle": "All hosting types with the features you'll need. One platform. Ready to deploy, scale, and grow.",
+        "badge": "UltraFast",
+        "feature_title": "Up to 20x Faster Than Traditional Web Hosting",
+        "feature_description": "Your site loads instantly, runs smoother, and ranks higher, thanks to AMD 4.2GHz CPUs, NVMe SSDs, PCIe Gen 5 architecture, 1 Gbps server throughput, and 8+ globally distributed data centers.",
+        "icons": {
+            "global_data_centers": "Global Data Centers",
+            "litespeed_servers": "LiteSpeed Servers",
+            "nvme_ssds": "NVMe SSDs"
+        },
+        "security": {
+            "badge": "Kraken 360",
+            "title": "Kraken 360 - Security You Can Trust",
+            "description": "From SSL encryption to DDoS defense and real-time monitoring, firewall protection, Kraken hosting keeps your website safe. Stay online, secure, and always protected.",
+            "features": {
+                "ddos": "DDoS protection",
+                "monitoring": "Real-time Monitoring",
+                "ssl": "free SSL"
+            }
+        }
+    },
+    "CoreFeatures": {
+        "ssl": {
+            "title": "Free SSL Certificate",
+            "description": "We provide a free 'Let's Encrypt' SSL certificate, instantly boosting SEO with Google."
+        },
+        "updates": {
+            "title": "Security & Updates",
+            "description": "We automatically update your instances & their plugins to the latest version & patch against common exploits."
+        },
+        "moneyback": {
+            "title": "Money Back Guarantee",
+            "description": "Try our hosting risk-free. If it's not right for you, get a full refund within 30 days."
+        }
+    }
+}

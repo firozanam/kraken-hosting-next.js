@@ -42,23 +42,29 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-        ? "bg-[#13191d]/90 backdrop-blur-md shadow-lg shadow-black/20"
-        : "bg-transparent"
+      className={`z-50 transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] left-0 right-0 ${scrolled
+        ? "fixed top-0 bg-[#13191d]/90 backdrop-blur-md shadow-lg shadow-black/20"
+        : mobileMenuOpen
+          ? "relative bg-[#13191d]"
+          : "fixed top-0 bg-transparent"
         }`}
     >
-      <div className="w-full px-6 sm:px-10 lg:px-16 xl:px-24">
+      <div className="w-full px-3 min-[400px]:px-6 sm:px-10 lg:px-16 xl:px-24">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 flex items-center">
-            <Image
-              src="/logo.png"
-              alt="Kraken Hosting"
-              width={379}
-              height={34}
-              className="h-7 w-auto"
-              priority
-            />
+          <Link href="/" className="flex-shrink-0 flex items-center gap-1.5 sm:gap-3 group">
+            <div className="relative w-6 h-6 sm:w-10 sm:h-10 lg:w-12 lg:h-12 transition-transform duration-300 group-hover:scale-110">
+              <Image
+                src="/footer-icon.png"
+                alt="Kraken Hosting"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
+            <span className="text-xs min-[400px]:text-sm sm:text-2xl font-bold text-white tracking-wide">
+              <span className="bg-gradient-to-r from-[#89d957] to-[#c9e265] bg-clip-text text-transparent">KRAKEN</span> HOSTING
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -179,125 +185,136 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="lg:hidden p-2 rounded-lg text-gray-300 hover:text-white hover:bg-[#1a2a1a] transition-colors duration-200"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {mobileMenuOpen ? (
-              <X className="h-6 w-6" />
-            ) : (
-              <Menu className="h-6 w-6" />
-            )}
-          </button>
+          {/* Mobile Actions: Client Area + Menu Toggle */}
+          <div className="flex items-center gap-2 min-[400px]:gap-3 lg:hidden">
+            <Link
+              href="/client-area"
+              className="relative inline-flex items-center justify-center px-2.5 py-1.5 min-[400px]:px-4 min-[400px]:py-2 text-[10px] min-[400px]:text-xs font-bold min-[400px]:font-semibold text-[#1a1a1a] bg-gradient-to-r from-[#89D957] to-[#c9e265] rounded-lg min-[400px]:rounded-xl overflow-hidden transition-all duration-200 hover:brightness-110 whitespace-nowrap"
+            >
+              <span className="relative z-10">Client Area</span>
+            </Link>
+
+            <button
+              className="p-2 rounded-lg text-gray-300 hover:text-white hover:bg-[#1a2a1a] transition-colors duration-200"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
+            </button>
+          </div>
         </div>
       </div>
 
       {/* Mobile Menu */}
       <div
-        className={`lg:hidden transition-all duration-300 overflow-hidden ${mobileMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+        className={`lg:hidden grid transition-[grid-template-rows] duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] ${mobileMenuOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
           }`}
       >
-        <div className="bg-[#0a0f0a]/98 backdrop-blur-md border-t border-[#2a3a2a]">
-          <div className="px-4 py-4 space-y-2">
-            {/* Hosting Accordion */}
-            <div className="border-b border-[#2a3a2a] pb-2">
-              <button
-                className="flex items-center justify-between w-full px-3 py-3 text-base font-medium text-gray-300 hover:text-white transition-colors duration-200"
-                onClick={toggleHostingMenu}
-              >
-                <span>Hosting</span>
-                <ChevronDown
-                  className={`h-5 w-5 transition-transform duration-200 ${hostingMenuOpen ? "rotate-180" : ""
-                    }`}
-                />
-              </button>
+        <div className="overflow-hidden bg-[#13191d]">
+          <div className="border-t border-[#2a3a2a]">
+            <div className="px-4 py-4 space-y-2">
+              {/* Hosting Accordion */}
+              <div className="border-b border-[#2a3a2a] pb-2">
+                <button
+                  className="flex items-center justify-between w-full px-3 py-3 text-base font-medium text-gray-300 hover:text-white transition-colors duration-200"
+                  onClick={toggleHostingMenu}
+                >
+                  <span>Hosting</span>
+                  <ChevronDown
+                    className={`h-5 w-5 transition-transform duration-200 ${hostingMenuOpen ? "rotate-180" : ""
+                      }`}
+                  />
+                </button>
 
-              <div
-                className={`overflow-hidden transition-all duration-300 ${hostingMenuOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
-                  }`}
-              >
-                <div className="pl-4 space-y-1 pb-2">
-                  <Link
-                    href="/hosting"
-                    className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
-                    onClick={closeMobileMenu}
-                  >
-                    Budget Shared Hosting
-                  </Link>
-                  <Link
-                    href="/privacy-hosting"
-                    className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
-                    onClick={closeMobileMenu}
-                  >
-                    Privacy Focused Hosting
-                  </Link>
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${hostingMenuOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
+                    }`}
+                >
+                  <div className="pl-4 space-y-1 pb-2">
+                    <Link
+                      href="/hosting"
+                      className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
+                      onClick={closeMobileMenu}
+                    >
+                      Budget Shared Hosting
+                    </Link>
+                    <Link
+                      href="/privacy-hosting"
+                      className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
+                      onClick={closeMobileMenu}
+                    >
+                      Privacy Focused Hosting
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Servers Accordion */}
-            <div className="border-b border-[#2a3a2a] pb-2">
-              <button
-                className="flex items-center justify-between w-full px-3 py-3 text-base font-medium text-gray-300 hover:text-white transition-colors duration-200"
-                onClick={toggleServersMenu}
-              >
-                <span>Servers</span>
-                <ChevronDown
-                  className={`h-5 w-5 transition-transform duration-200 ${serversMenuOpen ? "rotate-180" : ""
+              {/* Servers Accordion */}
+              <div className="border-b border-[#2a3a2a] pb-2">
+                <button
+                  className="flex items-center justify-between w-full px-3 py-3 text-base font-medium text-gray-300 hover:text-white transition-colors duration-200"
+                  onClick={toggleServersMenu}
+                >
+                  <span>Servers</span>
+                  <ChevronDown
+                    className={`h-5 w-5 transition-transform duration-200 ${serversMenuOpen ? "rotate-180" : ""
+                      }`}
+                  />
+                </button>
+
+                <div
+                  className={`overflow-hidden transition-all duration-300 ${serversMenuOpen ? "max-h-48 opacity-100" : "max-h-0 opacity-0"
                     }`}
-                />
-              </button>
-
-              <div
-                className={`overflow-hidden transition-all duration-300 ${serversMenuOpen ? "max-h-48 opacity-100" : "max-h-0 opacity-0"
-                  }`}
-              >
-                <div className="pl-4 space-y-1 pb-2">
-                  <Link
-                    href="/vps"
-                    className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
-                    onClick={closeMobileMenu}
-                  >
-                    Cloud VPS
-                  </Link>
-                  <Link
-                    href="/dedicated"
-                    className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
-                    onClick={closeMobileMenu}
-                  >
-                    Dedicated Server
-                  </Link>
-                  <Link
-                    href="/media-servers"
-                    className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
-                    onClick={closeMobileMenu}
-                  >
-                    Media Server
-                  </Link>
+                >
+                  <div className="pl-4 space-y-1 pb-2">
+                    <Link
+                      href="/vps"
+                      className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
+                      onClick={closeMobileMenu}
+                    >
+                      Cloud VPS
+                    </Link>
+                    <Link
+                      href="/dedicated"
+                      className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
+                      onClick={closeMobileMenu}
+                    >
+                      Dedicated Server
+                    </Link>
+                    <Link
+                      href="/media-servers"
+                      className="block px-3 py-2 text-sm text-gray-400 hover:text-[#a3e635] transition-colors duration-200"
+                      onClick={closeMobileMenu}
+                    >
+                      Media Server
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* VPN Link */}
-            <Link
-              href="/vpn"
-              className="block px-3 py-3 text-base font-medium text-gray-300 hover:text-white transition-colors duration-200"
-              onClick={closeMobileMenu}
-            >
-              VPN
-            </Link>
-
-            {/* Client Area Button */}
-            <div className="pt-4 pb-2">
+              {/* VPN Link */}
               <Link
-                href="/client-area"
-                className="block w-full text-center px-6 py-3 text-base font-semibold text-[#0a0f0a] bg-gradient-to-r from-[#a3e635] to-[#84cc16] rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#a3e635]/25"
+                href="/vpn"
+                className="block px-3 py-3 text-base font-medium text-gray-300 hover:text-white transition-colors duration-200"
                 onClick={closeMobileMenu}
               >
-                Client Area
+                VPN
               </Link>
+
+              {/* Client Area Button */}
+              <div className="pt-4 pb-2">
+                <Link
+                  href="/client-area"
+                  className="block w-full text-center px-6 py-3 text-base font-semibold text-[#0a0f0a] bg-gradient-to-r from-[#a3e635] to-[#84cc16] rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-[#a3e635]/25"
+                  onClick={closeMobileMenu}
+                >
+                  Client Area
+                </Link>
+              </div>
             </div>
           </div>
         </div>
