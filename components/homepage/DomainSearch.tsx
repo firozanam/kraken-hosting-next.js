@@ -6,9 +6,9 @@ export const DomainSearch = () => {
 
     return (
         <section className="relative w-full bg-[#13191d] py-24 lg:pt-48 lg:pb-20">
-            <div className="w-[90%] lg:w-[75%] mx-auto relative z-10">
-                <div className="absolute bottom-0 left-0 translate-y-1/2 w-[250px] h-[250px] sm:w-[500px] sm:h-[500px] lg:w-[600px] lg:h-[600px] bg-[#9fa3a7]/20 blur-[120px] rounded-full pointer-events-none" />
-                <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[200px] h-[200px] sm:w-[350px] sm:h-[350px] lg:w-[450px] lg:h-[450px] bg-[#9fa3a7]/20 blur-[120px] rounded-full pointer-events-none -z-10" />
+            <div className="w-[90%] lg:w-[85%] mx-auto container-ultrawide relative z-10">
+                <div className="absolute bottom-0 left-0 translate-y-1/2 w-[250px] h-[250px] sm:w-[500px] sm:h-[500px] lg:w-[600px] lg:h-[600px] bg-[#9fa3a7]/20 blur-[50px] md:blur-[120px] rounded-full pointer-events-none gpu-accelerated" />
+                <div className="absolute top-1/2 right-0 -translate-y-1/2 w-[200px] h-[200px] sm:w-[350px] sm:h-[350px] lg:w-[450px] lg:h-[450px] bg-[#9fa3a7]/20 blur-[50px] md:blur-[120px] rounded-full pointer-events-none -z-10 gpu-accelerated" />
 
                 <div className="bg-[#1a1e22] rounded-[2.5rem] p-6 md:p-8 lg:py-10 lg:px-12 relative overflow-hidden">
 
@@ -48,7 +48,7 @@ export const DomainSearch = () => {
                                         className="flex-1 bg-gray-200 text-gray-800 px-5 py-3 xl:py-4 text-sm lg:text-base focus:outline-none rounded-l-xl placeholder:text-gray-500 min-w-0"
                                     />
                                     <button
-                                        className="w-32 md:w-40 xl:w-48 py-3 xl:py-4 text-sm lg:text-base font-semibold text-[#1a1a1a] bg-gradient-to-r from-[#89D957] to-[#a8e667] rounded-r-xl hover:brightness-110 transition-all duration-200 whitespace-nowrap"
+                                        className="w-32 md:w-40 xl:w-48 py-3 xl:py-4 text-sm lg:text-base font-semibold text-[#1a1a1a] bg-gradient-to-r from-[#89d957] to-[#c9e265] rounded-r-xl hover:brightness-110 transition-all duration-200 whitespace-nowrap"
                                     >
                                         {t("cta_button")}
                                     </button>

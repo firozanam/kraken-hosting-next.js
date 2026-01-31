@@ -1,0 +1,97 @@
+{
+    "AUP": {
+        "title": "Acceptable Use Policy (AUP)",
+        "revised": "Revised: 12.12.2025",
+        "sections": {
+            "1": {
+                "title": "1. General Principles",
+                "content": "KrakenHosting supports freedom of information, privacy, and uncensored hosting. This freedom must not be used to violate universally recognized laws or disrupt network stability. All Services must be used responsibly, ethically, and legally, according to this AUP."
+            },
+            "2": {
+                "title": "2. Strictly Prohibited Content & Activities",
+                "content": "The following are zero-tolerance offences and will lead to immediate suspension or termination without refund:",
+                "list": [
+                    {
+                        "title": "Illegal Content:",
+                        "description": "Child sexual abuse material (CSAM), human-trafficking content, or anything that violates universally prohibited international standards."
+                    },
+                    {
+                        "title": "Malware & Cyber-crime:",
+                        "description": "Hosting or distributing malware, trojans, ransomware, botnets, C&C servers, phishing pages, credential-harvesting tools, or conducting unauthorized network scanning."
+                    },
+                    {
+                        "title": "Fraud & Financial Crime:",
+                        "description": "Credit-card fraud shops, fake banking portals, crypto-scam sites, “money-mule” networks, or deceptive investment platforms."
+                    },
+                    {
+                        "title": "Spam & Mass-messaging Abuse:",
+                        "description": "Sending unsolicited bulk e-mail, operating mailers without verifiable opt-in records, or hosting “spamvertised” domains."
+                    },
+                    {
+                        "title": "Network Attacks:",
+                        "description": "Launching or facilitating DDoS attacks, hosting booters/stressers, or interfering with KrakenHosting infrastructure or upstream networks."
+                    }
+                ]
+            },
+            "3": {
+                "title": "3. High-Risk / Grey-Area Content",
+                "content": "We accept content that many providers reject (adult, IPTV, crypto, proxies, torrents, file-hosting, etc.) provided you:",
+                "list": [
+                    "Do not violate the criminal laws of the server’s jurisdiction;",
+                    "Do not endanger network stability;",
+                    "Do not distribute clearly illegal copyrighted material."
+                ],
+                "footer": "We do not pre-screen content, but we reserve the right to act if your operations threaten service integrity."
+            },
+            "4": {
+                "title": "4. Copyright & Abuse Handling",
+                "content": "KrakenHosting is an offshore provider. Foreign copyright demands are not automatically enforceable. Valid complaints grounded in the hosting jurisdiction's laws may be forwarded to you for response. Repeated, serious abuse that jeopardizes our infrastructure may still result in suspension or termination. We are not a mediator in copyright disputes."
+            },
+            "5": {
+                "title": "5. Security Requirements",
+                "content": "You must:",
+                "list": [
+                    "Use strong passwords / keys and enable 2-factor authentication where offered;",
+                    "Keep all software patched and fire-walled;",
+                    "Prevent unauthorized access to your systems."
+                ],
+                "footer": "Breaches caused by your negligence are your responsibility."
+            },
+            "6": {
+                "title": "6. Resource-Use Policy",
+                "content": "Excessive CPU, RAM, disk-I/O, or network utilisation that disrupts other clients may lead to throttling or suspension. Crypto-mining is prohibited on shared hosting; it is allowed on dedicated/VPS only if explicitly permitted in your plan description. We will attempt to notify you before taking corrective action."
+            },
+            "7": {
+                "title": "7. Network Integrity",
+                "content": "You may not forge packets, spoof IPs, conduct port-scanning from our network, or bypass our monitoring or security systems. Any activity that causes our upstream providers to null-route traffic may result in immediate suspension."
+            },
+            "8": {
+                "title": "8. Law-Enforcement Requests",
+                "content": "We comply only with legally valid requests issued under the laws of the server’s jurisdiction. We do not respond to foreign legal demands. We protect customer privacy but will cooperate when presented with enforceable local court orders related to universally recognized crimes."
+            },
+            "9": {
+                "title": "9. Customer Responsibility",
+                "content": "You are solely responsible for the legality of your content, the actions of your end-users, and responding to any abuse notices we forward. Failure to resolve serious issues may lead to suspension or termination."
+            },
+            "10": {
+                "title": "10. Consequences of Violations",
+                "content": "Depending on severity we may:",
+                "list": [
+                    "Issue a written warning;",
+                    "Temporarily suspend the service;",
+                    "Permanently terminate the account without refund;",
+                    "Refuse future orders."
+                ],
+                "footer": "No refunds are issued for accounts terminated due to AUP breaches."
+            },
+            "11": {
+                "title": "11. Changes to this AUP",
+                "content": "We may update this policy at any time; the revised version takes effect immediately upon publication on our website. Continued use of the Services constitutes acceptance of the updated AUP."
+            },
+            "12": {
+                "title": "12. Contact & Abuse Reports",
+                "content": "Questions or abuse reports, please contact:"
+            }
+        }
+    }
+}

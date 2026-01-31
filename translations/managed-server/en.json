@@ -1,0 +1,64 @@
+{
+    "ManagedServerHero": {
+        "title": "Kraken 360: Managed Security & Maintenance",
+        "description": "We don't just manage your server – we take care of your entire digital presence. Most providers stop at the server door, but we go all the way to ensure your success. With Kraken 360, we don't just manage your server we proactively protect and maintain your entire digital presence.",
+        "features": {
+            "managed_security": {
+                "title": "Managed Security & Maintenance",
+                "description": "We handle everything from instant security patches to WordPress manual theme updates."
+            },
+            "proactive_protection": {
+                "title": "Proactive Protection",
+                "description": "Continuous malware monitoring keeps your site safe from evolving threats."
+            },
+            "focus_business": {
+                "title": "Focus on Your Business",
+                "description": "We handle all the technical heavy lifting so you can spend your time where it matters most."
+            },
+            "simple_interface": {
+                "title": "Simple interface",
+                "description": "The simple and sleek interface allows you to master Kraken 360 in no time at all"
+            }
+        }
+    },
+    "ManagedServerHowItWorks": {
+        "title": "What you get with Kraken 360 Managed Security & Maintenance",
+        "blocks": {
+            "installation_support": {
+                "title": "Installation Support",
+                "description": "We assist with the entire setup, including building nameservers, installing the server according to your specific needs, and configuring SSL, Apache, IIS, and PHP / .NET functions. We also set up additional firewalls, security plugins, and outgoing SMTP filters."
+            },
+            "monitoring_maintenance": {
+                "title": "24/7 Monitoring & Maintenance",
+                "description": "We monitor your digital presence 24/7 using our advanced monitoring system, and if an issue arises, we fix it immediately. For example, if the server stops responding on port 80 and your websites go down, our technicians are alerted instantly to troubleshoot and resolve the issue—day or night. In other words, your digital presence is our priority 365 days a year."
+            },
+            "software_upgrades": {
+                "title": "Software Upgrades",
+                "description": "We take full responsibility for the software delivered with your server, such as cPanel, Plesk, and OS distributions, ensuring that these are always updated to the latest versions as soon as they are released."
+            },
+            "support": {
+                "title": "Kraken 360 Support",
+                "description": "You can reach one of our technicians directly at any time via our phone support or website chat. This ensures you skip the standard support queue and speak immediately with an expert if you have any questions or concerns regarding your server, software, or website."
+            }
+        }
+    },
+    "ManagedServerQuestions": {
+        "title": "Questions about Kraken 360: Managed Security & Maintenance?",
+        "subtitle": "Fill out the form below and one of our sales representatives will get back to you immediately.",
+        "left_content": {
+            "title": "Elevate Your Infrastructure with Kraken 360",
+            "subtitle": "Expert Management. Unrivaled Security. Guaranteed Peace of Mind.",
+            "description": "In a world where digital threats evolve by the second, simply having a server isn't enough—you need a fortress. Most providers stop at the hardware, but we take full command of your digital ecosystem. With Kraken 360, you aren't just buying a service; you are gaining a dedicated team of elite technicians committed to your uptime and security."
+        },
+        "pricing_card": {
+            "header": "Get Started Now – Maximum Security for Only €40 /month",
+            "card_title": "Managed Server",
+            "card_description": "Complete managed service for your server. Installation, monitoring, 24/7 technical support, and updates.",
+            "price_prefix": "From.",
+            "price_value": "€40",
+            "price_suffix": "/month",
+            "dropdown_label": "1 month - €40",
+            "button": "Order now"
+        }
+    }
+}

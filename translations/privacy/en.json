@@ -1,0 +1,14 @@
+{
+    "Privacy": {
+        "title": "Privacy & Data Protection",
+        "revised": "Revised: 12.12.2025",
+        "content": "KrakenHosting follows strict internal privacy principles:",
+        "list": [
+            "We do not sell customer data.",
+            "We do not monitor customer activity.",
+            "We do not retain logs unless required by the hosting jurisdiction.",
+            "We do not respond to foreign government requests unless legally required under applicable local law."
+        ],
+        "footer": "For EU clients, KrakenHosting adheres to GDPR principles, but is not an EU-based entity. See our Privacy Policy for full details."
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "Hero": {
+        "title": "Get in <span class=\"text-[#bff747]\">Touch</span>",
+        "subtitle": "We are here to help you 24/7/365. Reach out to us via any of the channels below."
+    },
+    "Info": {
+        "email_title": "Email Us",
+        "email_desc": "For general inquiries and support",
+        "live_chat_title": "Live Chat",
+        "live_chat_desc": "Chat with our support team instantly for quick answers",
+        "ticket_title": "Support Ticket",
+        "ticket_desc": "Open a ticket for technical assistance from Client Area",
+        "live_chat_button": "Start Chat",
+        "ticket_button": "Open Ticket"
+    },
+    "Form": {
+        "title": "Send us a Message",
+        "response_time": "We usually respond within 24 hours.",
+        "name_label": "Your Name",
+        "name_placeholder": "John Doe",
+        "email_label": "Email Address",
+        "email_placeholder": "john@example.com",
+        "subject_label": "Subject",
+        "subject_placeholder": "How can we help?",
+        "message_label": "Message",
+        "message_placeholder": "Tell us more about your inquiry...",
+        "submit_button": "Send Message"
+    }
+}

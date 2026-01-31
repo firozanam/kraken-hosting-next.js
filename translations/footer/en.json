@@ -1,0 +1,42 @@
+{
+    "branding": {
+        "text": "KRAKEN",
+        "suffix": "HOSTING",
+        "tagline_1": "Where the signal fades, we amplify.",
+        "tagline_2": "Kraken Media: Unlocking the unseen"
+    },
+    "newsletter": {
+        "placeholder": "Sign up for special offers",
+        "button": "Submit"
+    },
+    "columns": {
+        "quick_links": {
+            "title": "Quick Link",
+            "items": {
+                "shared": "Shared Hosting",
+                "vps": "VPS Hosting",
+                "managed": "Managed Server",
+                "about": "About Us",
+                "contact": "Contact Us"
+            }
+        },
+        "legal": {
+            "title": "Legal",
+            "items": {
+                "terms": "Terms & Conditions",
+                "aup": "Acceptable Use Policy",
+                "sla": "Service Level Agreement",
+                "privacy": "Privacy Policy",
+                "copyright": "Copyright & Disclaimer"
+            }
+        },
+        "questions": {
+            "title": "Have Questions?",
+            "email_label": "E-mail:"
+        },
+        "accept": {
+            "title": "We accept"
+        }
+    },
+    "copyright": "Copyright © Krakenhosting{year} All Rights Reserved"
+}

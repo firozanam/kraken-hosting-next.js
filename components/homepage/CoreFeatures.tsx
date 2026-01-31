@@ -1,58 +1,82 @@
+"use client";
+
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { FadeIn } from "@/components/ui/FadeIn";
 
 export const CoreFeatures = () => {
-    const t = useTranslations("CoreFeatures");
-
-    const features = [
-        {
-            key: "ssl",
-            icon: "/images/home/feature-ssl.png",
-            imgClass: "h-[200px] w-auto lg:w-full lg:h-auto object-contain", // Constrained height for mobile/tab
-        },
-        {
-            key: "updates",
-            icon: "/images/home/feature-updates.png",
-            imgClass: "h-[160px] w-auto lg:h-auto lg:w-auto object-contain mx-auto", // Constrained mobile height
-        },
-        {
-            key: "moneyback",
-            icon: "/images/home/feature-moneyback.png",
-            imgClass: "h-[160px] w-auto lg:h-auto lg:w-auto object-contain mx-auto", // Constrained mobile height
-        }
-    ];
-
     return (
-        <section className="relative w-full bg-[#13191d] py-20 lg:py-32">
-            <div className="w-[90%] lg:w-[90%] xl:w-[75%] mx-auto relative z-10">
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-8 text-black">
-                    {features.map((feature) => (
-                        <div key={feature.key} className="bg-white rounded-3xl p-8 lg:p-6 xl:p-10 flex flex-col items-center text-center space-y-2 lg:space-y-2 xl:space-y-4 transition-transform hover:scale-[1.02] duration-300 h-full">
-
-                            {/* Text Content */}
-                            <div className="space-y-4">
-                                <h3 className="text-xl lg:text-xl xl:text-2xl font-bold text-[#1a1a1a]">
-                                    {t(`${feature.key}.title`)}
-                                </h3>
-                                <p className="text-gray-600 text-sm lg:text-sm xl:text-base leading-relaxed">
-                                    {t(`${feature.key}.description`)}
-                                </p>
-                            </div>
-
-                            {/* Image/Graphic */}
-                            <div className="relative w-full flex items-center justify-center mt-auto pt-2">
-                                <div className="relative w-full">
-                                    <Image
-                                        src={feature.icon}
-                                        alt={t(`${feature.key}.title`)}
-                                        width={400}
-                                        height={300}
-                                        className={feature.imgClass}
-                                    />
-                                </div>
-                            </div>
+        <section className="relative w-full bg-[#13191d] py-16 lg:py-24">
+            <div className="w-[90%] lg:w-[85%] mx-auto container-ultrawide relative z-10">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    {/* Free SSL */}
+                    <FadeIn
+                        delay={100}
+                        duration={500}
+                        className="bg-white rounded-3xl p-8 flex flex-col items-center text-center overflow-hidden"
+                    >
+                        <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-4">Free SSL Certificate</h3>
+                        <p className="text-gray-600 text-sm mb-6">
+                            We provide a free &apos;Let&apos;s Encrypt&apos; SSL
+                            certificate, instantly boosting SEO
+                            with Google.
+                        </p>
+                        <div className="mt-auto w-full relative h-[150px]">
+                            <Image
+                                src="/images/wordpress-hosting/features/ssl.svg"
+                                alt="Free SSL"
+                                fill
+                                sizes="(max-width: 768px) 100vw, 33vw"
+                                className="object-contain object-bottom"
+                            />
                         </div>
-                    ))}
+                    </FadeIn>
+
+                    {/* Security & Updates */}
+                    <FadeIn
+                        delay={200}
+                        duration={500}
+                        className="bg-white rounded-3xl p-8 flex flex-col items-center text-center overflow-hidden"
+                    >
+                        <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-4">Security & Updates</h3>
+                        <p className="text-gray-600 text-sm mb-6">
+                            We automatically update your
+                            instances & their plugins to the latest
+                            version & patch against common
+                            exploits.
+                        </p>
+                        <div className="mt-auto w-full relative h-[150px]">
+                            <Image
+                                src="/images/wordpress-hosting/features/security.svg"
+                                alt="Security"
+                                fill
+                                sizes="(max-width: 768px) 100vw, 33vw"
+                                className="object-contain object-bottom"
+                            />
+                        </div>
+                    </FadeIn>
+
+                    {/* Money Back Guarantee */}
+                    <FadeIn
+                        delay={300}
+                        duration={500}
+                        className="bg-white rounded-3xl p-8 flex flex-col items-center text-center overflow-hidden"
+                    >
+                        <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-4">Money Back Guarantee</h3>
+                        <p className="text-gray-600 text-sm mb-6">
+                            Try our hosting risk-free. If it’s not
+                            right for you, get a full refund within
+                            30 days.
+                        </p>
+                        <div className="mt-auto w-full relative h-[150px]">
+                            <Image
+                                src="/images/wordpress-hosting/features/money-back.svg"
+                                alt="Money Back"
+                                fill
+                                sizes="(max-width: 768px) 100vw, 33vw"
+                                className="object-contain object-bottom"
+                            />
+                        </div>
+                    </FadeIn>
                 </div>
             </div>
         </section>

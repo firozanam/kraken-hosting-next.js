@@ -1,0 +1,71 @@
+{
+    "logo": {
+        "text": "KRAKEN",
+        "suffix": "HOSTING"
+    },
+    "menu": {
+        "domain": "Domains",
+        "hosting": {
+            "title": "Hosting",
+            "items": {
+                "shared": {
+                    "title": "Shared Hosting",
+                    "description": "High-speed secure hosting"
+                },
+                "privacy_shared": {
+                    "title": "Privacy Focused Hosting",
+                    "description": "Enhanced privacy and security"
+                },
+                "wordpress": {
+                    "title": "WordPress Hosting",
+                    "description": "Managed WordPress solutions"
+                }
+            }
+        },
+        "servers": {
+            "title": "Servers",
+            "items": {
+                "vps": {
+                    "title": "Cloud VPS",
+                    "description": "Scalable virtual private servers"
+                }
+            }
+        },
+        "security": {
+            "title": "Security Service",
+            "items": {
+                "products": {
+                    "title": "All Products",
+                    "description": "Complete security solutions"
+                },
+                "kraken_secure": {
+                    "title": "Kraken Secure Web",
+                    "description": "Advanced Web Protection"
+                },
+                "website_security": {
+                    "title": "Website Security",
+                    "description": "Server & Website Protection"
+                },
+                "patchman": {
+                    "title": "Patchman",
+                    "description": "Automated Application Security"
+                },
+                "ssl": {
+                    "title": "Sectigo (SSL)",
+                    "description": "Sectigo SSL/TLS security"
+                },
+                "managed": {
+                    "title": "Managed Server",
+                    "description": "Fully managed security & maintenance"
+                },
+                "vpn": {
+                    "title": "VPN",
+                    "description": "Secure private network"
+                }
+            }
+        },
+        "about": "About Us",
+        "contact": "Contact Us"
+    },
+    "client_area": "Client Area"
+}

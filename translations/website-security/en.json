@@ -1,0 +1,62 @@
+{
+    "WebsiteSecurityHero": {
+        "title": "BitNinja AI-Powered Security For",
+        "description": "Cloud, VPS, and Dedicated Servers. Monitors and protects your server 24/7 from DDoS, malware, attacks, and other threats to your website!",
+        "features": {
+            "complete_security": {
+                "title": "Complete Server Security",
+                "description": "Manage your entire server's security from BitNinja's simple control panel"
+            },
+            "total_control": {
+                "title": "Total Control",
+                "description": "Monitor blacklisted and whitelisted IP addresses in real-time and easily add your own."
+            },
+            "full_visibility": {
+                "title": "Full Visibility and Control",
+                "description": "View logs for all attacks, intrusion attempts, and more on your server"
+            },
+            "simple_interface": {
+                "title": "Simple interface",
+                "description": "The simple and sleek interface allows you to master Patchman in no time at all"
+            }
+        }
+    },
+    "HowItWorks": {
+        "title": "How does BitNinja work?",
+        "blocks": {
+            "easy_start": {
+                "title": "Easy to get started",
+                "description": "BitNinja starts protecting your server immediately without the need for any complicated setup procedures. As soon as it is installed, it will eliminate 99% of all attacks, brute force attempts, and DDoS threats that your server is exposed to daily."
+            },
+            "integrated_products": {
+                "title": "Integrated products",
+                "description": "This user-friendly security suite provides the most comprehensive set of tools to keep malware, DDoS, spam, XSS, script injection, enumeration, brute force, automated attacks, and viruses at bay. This full-stack product line will protect your cloud, virtual, and dedicated servers against all internal and external threats."
+            },
+            "smart_system": {
+                "title": "A smart security system for your server",
+                "description": "BitNinja increases your server’s protection capacity through machine learning. With BitNinja installed on servers all over the world, these systems learn from each other and automatically patch their own services continuously. This creates a global defense network that constantly updates and improves itself. Consequently, this doesn’t just protect your server—it also helps make other servers around the world more secure."
+            }
+        }
+    },
+    "WhyChoose": {
+        "title": "Stop worrying about cyber threats and start focusing on your business.",
+        "description": "In today’s digital landscape, it’s not a matter of if your server will be targeted, but when. BitNinja offers a powerful, 'all-in-one' defense system that provides your server with the ultimate protection it deserves. By combining advanced machine learning with a global network of security data, BitNinja stays one step ahead of hackers 24/7.",
+        "subtitle": "Why choose BitNinja for your server?",
+        "bullets": [
+            "Instant Peace of Mind: From the moment of installation, BitNinja begins neutralizing 99% of all automated attacks, brute force attempts, and DDoS threats.",
+            "Global Intelligence: Benefit from a worldwide defense network. When a new threat is detected on one server, the entire network is instantly immunized.",
+            "Effortless Management: No complex configurations or security expertise required. Everything is managed through a sleek, intuitive control panel.",
+            "Performance First: Powerful security doesn’t have to be heavy. BitNinja is optimized to protect your server without compromising on speed or reliability."
+        ],
+        "closing": "Don’t leave your data to chance. Get started with BitNinja today and join a global community dedicated to making the internet a safer place.",
+        "pricing_card": {
+            "header": "Get Started Now – Maximum Security for Only €12 /month",
+            "title": "BitNinja",
+            "subtitle": "Ultimate security for your Linux server.",
+            "price_prefix": "From.",
+            "price_value": "€13",
+            "dropdown_label": "1 month - €13",
+            "button": "Order now"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "PatchmanHero": {
+        "title": "Kraken patchman – Automate your applications",
+        "description": "Protect your website by automatically patching vulnerabilities and updates. Kraken patch automatically installs new security patches released by all providers.",
+        "features": {
+            "automatic_protection": {
+                "title": "Automatic protection",
+                "description": "Detects malware & viruses, installs the latest patches, you don't have to do anything yourself"
+            },
+            "quick_learning": {
+                "title": "Quick learning",
+                "description": "Very simple interface so you can easily learn to set everything up"
+            },
+            "patch_1_click": {
+                "title": "Patch with 1 click",
+                "description": "If you prefer to manage and monitor manually, you can patch your entire website with 1 click"
+            },
+            "simple_interface": {
+                "title": "Simple interface",
+                "description": "The simple and sleek interface allows you to master Patchman in no time at all"
+            }
+        }
+    },
+    "PatchmanHowItWorks": {
+        "title": "Patchman VPS Server only €15 /month",
+        "blocks": {
+            "cms_protection": {
+                "title": "Protect yourself against vulnerabilities in the most popular CMS tools",
+                "description": "As long as there is software, there will be vulnerabilities. This is simply because many security holes are unknown to the developers. Content Management Systems such as WordPress, Joomla, and Drupal are open-source, and new vulnerabilities will emerge periodically. As soon as these vulnerabilities are discovered, new patches are released. However, the problem is that you must manually log in and update them, and sometimes you don't have time before it's already too late. Patchman solves this problem by automatically patching your plugins, themes, and installations."
+            },
+            "malicious_code": {
+                "title": "Handle malicious code as it is released",
+                "description": "Why expose your website to threats when your CMS provider is working to resolve them by releasing new patches? Malware has obvious patterns, and Patchman can use these characteristics to detect and quarantine suspicious spiders, bot crawlers, and malicious scripts before the damage is done. Even though this malware is handled when patches are released, Patchman does not wait that long, but immediately isolates these instances of malware attacks."
+            },
+            "undo_updates": {
+                "title": "Easy to undo updates",
+                "description": "Just because a patch has been installed by Patchman does not mean your website is secure and functioning. Sometimes the latest patch causes more problems than solutions, and you might need to undo the patch installation, even if only temporarily. Patchman has solved this so that you can easily roll back to a previous version without the new patch, and your website will then start functioning as before."
+            },
+            "automatic_workflows": {
+                "title": "Create automatic workflows to avoid manual work",
+                "description": "In Patchman, you can set up automatic workflows yourself; this means you don't have to log in and patch your website every time something new appears. Even if you receive an email stating that a new security hole has been discovered, you might not be available to easily update it; in those cases, it is good that Patchman handles the update and installation of the new patch itself."
+            }
+        }
+    },
+    "PatchmanCTA": {
+        "title": "Do you have more questions about Patchman?",
+        "button": "Contact us"
+    }
+}

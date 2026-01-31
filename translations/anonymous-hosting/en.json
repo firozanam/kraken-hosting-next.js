@@ -1,0 +1,238 @@
+{
+    "AnonymousHero": {
+        "title": "Privacy Focused <span class=\"text-[#89d957]\">Shared Hosting</span>",
+        "subtitle": "Our Exclusive Kraken Offshore Web Hosting provides exclusive automated tools, complaint filtering, and enhanced protection for your website with Managed Services, Multi-Location Hosting, Auto Website Migration, Anti-DDoS Protection, and Anti-Hacking Security. We handle all issues related to your website automatically.",
+        "features": [
+            "99.99% Uptime Guarantee",
+            "offshore locations",
+            "Free DDoS Protection",
+            "24/7 Expert Support"
+        ],
+        "starting_at": "Starting at",
+        "price": "€99",
+        "period": "first year",
+        "cta_button": "View plans",
+        "bottom_features": {
+            "security": "Impenetrable Security",
+            "ddos": "Free DDoS Protection",
+            "managed": "Managed servers"
+        }
+    },
+    "AnonymousPricing": {
+        "title": "Where the signal fades, we amplify. Kraken Hosting: Unlocking the unseen",
+        "subtitle": "Our clients trust us to protect their digital identity and maintain seamless operations. We specialize in providing a secure, high-availability environment designed for those who require consistent results without the complexity.",
+        "managed_server": "Managed Hosting",
+        "order_now": "Order now",
+        "plans": {
+            "starter": {
+                "name": "Kraken Starter",
+                "description": "Entry-level anonymity for those who value privacy above all else. Deeply hidden, highly secure, and perfectly out of reach.",
+                "price": "€99",
+                "period": "",
+                "original_price": "Then €10.95/mo Annual billing",
+                "save_badge": "You save 25%",
+                "features": [
+                    "TurboCharged 2GB Memory",
+                    "Kraken 360 Protection",
+                    "Advanced DDoS Protection",
+                    "Private Hidden DNS",
+                    "Private Hidden IP Address",
+                    "Rapid Auto Migration",
+                    "100GB SSD NVMe",
+                    "25 Email Accounts",
+                    "1 Website",
+                    "Unmetered Bandwidth",
+                    "One Click Installer",
+                    "8 Offshore Locations",
+                    "Litespeed Technology",
+                    "Plesk Control Panel",
+                    "24/7 Professional Support",
+                    "Bitcoin Accepted",
+                    "30 Days Money Back"
+                ]
+            },
+            "grow": {
+                "name": "Kraken Grow",
+                "description": "Built for those who need a deeper layer of protection. A high-pressure environment that keeps your data safe and your site resilient against any threat.",
+                "price": "€130",
+                "period": "",
+                "original_price": "Then €19.95/mo Annual billing",
+                "save_badge": "You save 45%",
+                "features": [
+                    "TurboCharged 3GB Memory",
+                    "Kraken 360 Protection",
+                    "Advanced DDoS Protection",
+                    "Private Hidden DNS",
+                    "Private Hidden IP Address",
+                    "Rapid Auto Migration",
+                    "250GB SSD NVMe",
+                    "50 Email Accounts",
+                    "3 Websites",
+                    "Unmetered Bandwidth",
+                    "One Click Installer",
+                    "8 Offshore Locations",
+                    "Litespeed Technology",
+                    "Plesk Control Panel",
+                    "24/7 Professional Support",
+                    "Bitcoin Accepted",
+                    "30 Days Money Back"
+                ]
+            },
+            "bigger": {
+                "name": "Kraken Bigger",
+                "description": "Built for those who need a deeper layer of protection. A high-pressure environment that keeps your data safe and your site resilient against any threat.",
+                "price": "€160",
+                "period": "",
+                "original_price": "Then €23.95/mo Annual billing",
+                "save_badge": "You save 44%",
+                "features": [
+                    "TurboCharged 4GB Memory",
+                    "Kraken 360 Protection",
+                    "Advanced DDoS Protection",
+                    "Private Hidden DNS",
+                    "Private Hidden IP Address",
+                    "Rapid Auto Migration",
+                    "500GB SSD NVMe",
+                    "100 Email Accounts",
+                    "10 Websites",
+                    "Unmetered Bandwidth",
+                    "One Click Installer",
+                    "8 Offshore Locations",
+                    "Litespeed Technology",
+                    "Plesk Control Panel",
+                    "24/7 Professional Support",
+                    "Bitcoin Accepted",
+                    "30 Days Money Back"
+                ]
+            }
+        },
+        "Features": {
+            "title": "Premium Offshore Infrastructure. Uncompromising <span class=\"text-[#89d957]\">Privacy.</span>",
+            "subtitle": "At Krakenhosting.io, we provide high-performance offshore hosting solutions designed for those who demand total data sovereignty. Our infrastructure combines ironclad security with unbeatable uptime, ensuring your digital assets remain protected, private, and always online. Experience the service level your business deserves.",
+            "uptime": {
+                "title": "99.99% Uptime",
+                "description": "We're so confident in our infrastructure, 99% uptime guarantee."
+            },
+            "security_updates_large": {
+                "title": "Security & Updates",
+                "description": "We manage the security of your sites. We automatically update your instances and their plugins to the latest version and patch against common exploits."
+            },
+            "bandwidth": {
+                "title": "Unlimited Bandwidth",
+                "description": "There are no limits on the amount of traffic your hosting site or app can receive. Unlimited traffic is free and applies to both incoming and outgoing data."
+            },
+            "backups": {
+                "title": "Free Backups",
+                "description": "All our shared hosting account backups are processed on a daily basis. We retain multiple recovery points."
+            },
+            "ssl": {
+                "title": "Free SSL Certificate",
+                "description": "We provide a free 'Let's Encrypt' SSL certificate, instantly boosting SEO with Google."
+            },
+            "security_updates_small": {
+                "title": "Security & Updates",
+                "description": "We automatically update your instances & their plugins to the latest version & patch against common exploits."
+            },
+            "money_back": {
+                "title": "Money Back Guarantee",
+                "description": "If it's not right for you, get a full refund within 30 days."
+            },
+            "plesk": {
+                "title": "Powered by Plesk",
+                "description": "The most popular and powerful web hosting control panel for Window and linux"
+            },
+            "storage": {
+                "title": "Lightning-Fast Storage",
+                "description": "Your shared server plan is hosted on our Nvme SSD storages which delivers reliable data storage."
+            },
+            "monitoring": {
+                "title": "Pro-active Monitoring",
+                "description": "We monitor your server 24/7 and will respond immediately to any thing you need."
+            }
+        },
+        "Support": {
+            "title": "Most providers fold the moment they receive a complaint. <span class=\"text-[#7c37eb]\">We don't.</span>",
+            "description": "At Krakenhosting.io, we've built our infrastructure in the depths, far beyond the reach of those who want to shut you down.<br/><br/><span class=\"text-[#7c37eb]\">When we say 100% uptime, we don't just mean technical stability—we mean operational defiance.</span>",
+            "benefits": [
+                "<strong>Complaint-Resistant:</strong><br/>Whether it's meritless legal threats or aggressive takedown notices, your site stays exactly",
+                "<strong>Where it belongs: Online.</strong><br/>Total Sovereignty: Your data is hosted in jurisdictions that prioritize your privacy over their paperwork.",
+                "<strong>The Kraken Defense:</strong><br/>We don't answer to robots, and we don't fear the noise. We answer to you."
+            ],
+            "migration_title": "Migrate to <span class=\"text-[#7c37eb]\">Krakenhosting.io</span> today",
+            "migration_description": "Your website can now be moved for free to krakenhosting. Everything related to your website is flawlessly replicated, reinstalled, and reconfigured on your new server.",
+            "cta_button": "Choose a plan >",
+            "guarantee": "30 Day Money-back Guarantee"
+        },
+        "DetailedFeatures": {
+            "migration": {
+                "title": "Free Migration Services",
+                "description": "Your website can now be moved for free to Kraken Hosting. You will receive individualized service from our staff. With the least amount of disruption to your website and email services, everything related to your website is flawlessly replicated, reinstalled, and reconfigured on your new server.",
+                "bubble_text": "Wow that was easy..."
+            },
+            "support": {
+                "title": "24/7 Live Support",
+                "description": "Struggling? Our hosting professionals are readily available to help you through Live Chat. No matter if it's your first time setting up or an issue needs resolving, we can assist with any Shared Hosting requirement that may arise. Reach out now and let us make the web hosting process easy!"
+            }
+        },
+        "Vision": {
+            "title": "<span class=\"text-[#89d957]\">Unleash Your Vision.</span> We Handle the Rest.",
+            "description": "We know security and integrity are important to you. That's why Kraken Hosting has thought of absolutely everything, so you, our client, can focus on what you do best: your vision, your sales, your message. Let us take care of your website, web hosting and everything in between."
+        },
+        "FAQ": {
+            "title": "Frequently Asked Questions About <span class=\"text-[#bff747]\">Offshore Hosting</span>",
+            "questions": [
+                {
+                    "question": "Where are the offshore servers physically located?",
+                    "answer": "Our servers are located in state-of-the-art data centers in Germany, ensuring excellent connectivity and low latency for users across Europe and beyond."
+                },
+                {
+                    "question": "What control panel does krakehosting.io use?",
+                    "answer": "We use cPanel, the industry-standard control panel, which provides a user-friendly interface for managing your websites, emails, databases, and files."
+                },
+                {
+                    "question": "What tools or software can I use to build my website?",
+                    "answer": "You can use a wide range of tools including WordPress, Joomla, Drupal, and other CMS platforms. We also offer a website builder for easy drag-and-drop site creation."
+                },
+                {
+                    "question": "Do you include SSL certificates in all of your offshore hosting plans?",
+                    "answer": "Yes, we include free Let's Encrypt SSL certificates with all our shared hosting plans to ensure your website is secure and trusted by visitors."
+                },
+                {
+                    "question": "Can I upgrade to a more powerful hosting plan later?",
+                    "answer": "Absolutely! You can easily upgrade your plan at any time through your client area as your website grows and requires more resources."
+                },
+                {
+                    "question": "What is offshore Hosting?",
+                    "answer": "Offshore Hosting is a web hosting service where multiple websites act as 'tenants' on a single server located in a jurisdiction with favorable privacy laws."
+                },
+                {
+                    "question": "Why should I start with offshore Hosting?",
+                    "answer": "Offshore Hosting is cost-effective and provides enhanced privacy and security, making it the perfect entry point for those who value anonymity."
+                },
+                {
+                    "question": "What exactly is shared in offshore web hosting?",
+                    "answer": "In offshore shared hosting, server resources like CPU, RAM, and disk space are shared, but your data privacy remains our top priority."
+                },
+                {
+                    "question": "How can i buy a domain anonymous?",
+                    "answer": "You can register a domain anonymously through our service using cryptocurrency payment methods, ensuring your identity remains private."
+                },
+                {
+                    "question": "Can I get a professional business email account with a web hosting plan?",
+                    "answer": "Yes, all our shared hosting plans allow you to create professional email addresses using your domain name."
+                },
+                {
+                    "question": "How much traffic can offshore hosting handle?",
+                    "answer": "Our offshore hosting plans are optimized to handle significant traffic for small to medium-sized sites. For high-traffic sites, we recommend our VPS plans."
+                }
+            ]
+        },
+        "AppDeployment": {
+            "title": "Virtual Private Server with Fast OS & App Deployment",
+            "description": "Install your preferred operating system, pre-configured apps, or control panels, or upload your own ISO for complete flexibility in just a few clicks.",
+            "tabs": {
+                "applications": "Applications"
+            }
+        }
+    }
+}

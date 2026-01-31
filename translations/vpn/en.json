@@ -1,0 +1,65 @@
+{
+    "VPNHero": {
+        "title": "Kraken Secure VPN",
+        "description": "Reclaim your digital freedom. Kraken Secure VPN encrypts your connection, masks your identity, and provides a secure tunnel through the chaotic depths of the internet. Surf without boundaries, browse without footprints.",
+        "features": {
+            "security": {
+                "title": "Ironclad Security",
+                "description": "Enterprise-grade encryption protecting your every packet."
+            },
+            "privacy": {
+                "title": "Total Privacy",
+                "description": "Your data is yours alone. We ensure no one else sees it."
+            },
+            "simplicity": {
+                "title": "Instant Protection",
+                "description": "Secure your connection with a single, intuitive click."
+            }
+        }
+    },
+    "WhatIsVpn": {
+        "banner_title": "What is Business VPN?",
+        "content_title": "what you get",
+        "content_description": "Hybrid work is here to stay, and so are the non-compliance risks and cyber threats it creates. That’s why every modern business needs a Virtual Private Network (VPN).",
+        "bullets": {
+            "point_1": "Encrypts sensitive data in transit",
+            "point_2": "Secures remote access",
+            "point_3": "Strengthens compliance"
+        },
+        "pricing_card": {
+            "card_title": "Business VPN Plan",
+            "card_description": "Secure your entire team with one simple plan.",
+            "price_prefix": "From",
+            "price_value": "€9.99",
+            "price_suffix": "/user/mo",
+            "dropdown_label": "12 month - €9.99/user",
+            "button": "Start Free Trial"
+        }
+    },
+    "WhoIsVpnFor": {
+        "title": "Who is a Business VPN for?",
+        "startups": {
+            "title": "Startups",
+            "description": "Affordable enterprise-grade security that scales as you grow"
+        },
+        "smbs": {
+            "title": "SMBs",
+            "description": "Simple, fast-to-deploy protection for remote teams and hybrid work"
+        },
+        "enterprises": {
+            "title": "Enterprises",
+            "description": "Seamless site-to-site connectivity that keeps global teams secure"
+        }
+    },
+    "WhyKrakenVpn": {
+        "title": "Why Kraken VPN is the best for business out there",
+        "fast": {
+            "title": "One of the fastest VPN",
+            "description": "A new-generation VPN protocol that offers an improved connection, faster speeds, and better security measures than other VPN protocols."
+        },
+        "secure": {
+            "title": "Secures companies of any size",
+            "description": "NordLayer can integrate seamlessly with your current suite of applications and resources without disruption to your workforce. This makes NordLayer a great choice as a VPN for small business or a VPN for corporate network."
+        }
+    }
+}

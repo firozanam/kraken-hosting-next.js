@@ -1,0 +1,58 @@
+{
+    "SslHero": {
+        "title": "Fast and secure website with Sectigo SSL",
+        "description": "Upgrade your website with an SSL/TLS certificate from Sectigo and enhance your site's security – and gain increased trust from your visitors in the process!",
+        "features": {
+            "security": {
+                "title": "Higher security"
+            },
+            "seo": {
+                "title": "Better SEO"
+            },
+            "padlock": {
+                "title": "Padlock icon in the browser"
+            }
+        }
+    },
+    "SslBenefits": {
+        "title": "3 benefits of Sectigo SSL/TLS",
+        "blocks": {
+            "brand_trust": {
+                "title": "Enhanced Brand Trust and Credibility",
+                "description": "Sectigo is one of the most recognized names in web security. Displaying a Sectigo trust seal and the browser padlock icon immediately signals to your visitors that your business is legitimate and their data is handled by a global leader in encryption."
+            },
+            "encryption": {
+                "title": "Advanced Data Encryption and Integrity",
+                "description": "Sectigo SSL/TLS certificates provide high-level 256-bit encryption, protecting sensitive information like login credentials, personal data, and credit card numbers. This ensures that data remains private and cannot be intercepted or altered during transit."
+            },
+            "seo": {
+                "title": "Improved SEO Rankings",
+                "description": "Search engines like Google prioritize secure websites (HTTPS) in their search results. By using a Sectigo certificate, you not only secure your site but also improve your visibility, making it easier for potential clients to find your services."
+            }
+        }
+    },
+    "SslInstallation": {
+        "title": "Install SSL with krakenhosting.io in 3 simple steps",
+        "steps": {
+            "order": {
+                "title": "1. Order",
+                "description": "We will issue your SSL certificate as soon as you have paid for your order."
+            },
+            "install": {
+                "title": "2. Install",
+                "description": "We automatically install the certificate for you if you have web hosting with us. If you are using a different web host instead, you will need to copy the certificate information in your control panel."
+            },
+            "redirect": {
+                "title": "3. Redirect",
+                "description": "You can easily redirect your website to your new HTTPS address in your control panel. Done!"
+            }
+        },
+        "pricing": {
+            "title": "Sectigo SSL Wildcard",
+            "from": "From",
+            "price": "€140",
+            "duration": "12 month - €140",
+            "button": "Order now"
+        }
+    }
+}

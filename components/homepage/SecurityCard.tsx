@@ -35,7 +35,7 @@ const MonitorIcon = () => (
 
 export const SecurityCard = () => {
     return (
-        <div className="bg-[#1a1b26]/95 backdrop-blur-md p-6 rounded-2xl border border-white/5 shadow-2xl w-[260px] relative overflow-hidden">
+        <div className="bg-[#090a19]/95 backdrop-blur-md p-6 rounded-2xl border border-white/5 shadow-2xl w-[260px] relative overflow-hidden">
             {/* Top Left Icon */}
             <div className="absolute top-6 left-6">
                 <ShieldCheck className="w-12 h-12 text-[#89d957]" strokeWidth={1.5} />

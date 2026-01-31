@@ -1,0 +1,102 @@
+{
+    "VPSHero": {
+        "title": "20x Faster <span class=\"text-[#89d957]\">VPS Hosting</span>",
+        "subtitle": "Run your apps on next-generation VPS hosting with high-speed performance, flexible scaling, and root-level control. Ideal for developers and growing businesses.",
+        "features": [
+            "99.99% Uptime Guarantee",
+            "Free Real-Time Snapshot",
+            "Free DDoS Protection",
+            "24/7 Expert Support"
+        ],
+        "starting_at": "Starting at",
+        "price": "€9.90",
+        "period": "/mo*",
+        "cta_button": "View plans",
+        "bottom_features": {
+            "bandwidth": "Unlimited Bandwidth & Databases",
+            "ddos": "Free DDoS Protection",
+            "managed": "Managed servers"
+        }
+    },
+    "VPSPricing": {
+        "title": "Best VPS Hosting Plans for Every Project",
+        "subtitle": "Get the ideal mix of performance, reliability, and value with our fully managed VPS hosting for all your projects.",
+        "managed_server": "Managed server",
+        "order_now": "Order now",
+        "plans": {
+            "basic": {
+                "name": "VPS Basic",
+                "description": "Perfect affordable hosting for beginners.",
+                "price": "€9.90",
+                "period": "/mo",
+                "model": "Kraken-KVM-NVMe-2",
+                "original_price": "€9.90 - 1 month",
+                "features": [
+                    "1 vCore @ 4.20+ GHz",
+                    "2GB RAM DDR5",
+                    "50 GB NVMe SSD",
+                    "1 IPv4 Dedicated IP",
+                    "Free SSL Certificate(s)",
+                    "Free 30-Days Money-Back"
+                ],
+                "bandwidth": "Unmetered Bandwidth 10 Gbit/s"
+            },
+            "business": {
+                "name": "VPS Business",
+                "description": "Strong hosting built for medium businesses.",
+                "price": "€12.99",
+                "period": "/mo",
+                "model": "Kraken-KVM-NVMe-3",
+                "original_price": "€13.00 - 1 month",
+                "features": [
+                    "2 vCores @ 4.20+ GHz",
+                    "3GB RAM DDR5",
+                    "75 GB NVMe SSD",
+                    "1 IPv4 Dedicated IP",
+                    "Free SSL Certificate(s)",
+                    "Free 30-Days Money-Back"
+                ],
+                "bandwidth": "Unmetered Bandwidth 10 Gbit/s"
+            },
+            "growster": {
+                "name": "VPS Growster",
+                "description": "Advanced resources for expanding projects.",
+                "price": "€17.99",
+                "period": "/mo",
+                "model": "Kraken-KVM-NVMe-4",
+                "original_price": "€17.99 - 1 month",
+                "features": [
+                    "2 vCores @ 4.20+ GHz",
+                    "4GB RAM DDR5",
+                    "100 GB NVMe SSD",
+                    "1 IPv4 Dedicated IP",
+                    "Free SSL Certificate(s)",
+                    "Free 30-Days Money-Back"
+                ],
+                "bandwidth": "Unmetered Bandwidth 10 Gbit/s"
+            },
+            "kraken_one": {
+                "name": "VPS Kraken one",
+                "description": "The ultimate VPS tier with maximum resources",
+                "price": "€32.00",
+                "period": "/mo",
+                "model": "Kraken-KVM-NVMe-8",
+                "original_price": "€32.00 - 1 month",
+                "features": [
+                    "4 vCores @ 4.20+ GHz",
+                    "8GB RAM DDR5",
+                    "200 GB NVMe SSD",
+                    "1 IPv4 Dedicated IP",
+                    "Free SSL Certificate(s)",
+                    "Free 30-Days Money-Back"
+                ],
+                "bandwidth": "Unmetered Bandwidth 10 Gbit/s"
+            }
+        },
+        "bottom_cta": {
+            "title": "Need more power? Check our VDS servers",
+            "subtitle": "Upgrade to dedicated VM performance with high-clock 4.3 GHz CPUs and more resources for heavier workloads.",
+            "button": "VDS Hosting >"
+        }
+    }
+}

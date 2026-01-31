@@ -1,0 +1,83 @@
+{
+    "ProductsHero": {
+        "title": "Protect your website with advanced security",
+        "description": "Comprehensive protection designed to neutralize threats before they reach your site. We combine advanced encryption, real-time monitoring, and proactive defense to ensure your business remains untouchable and online.",
+        "features": {
+            "24_7_support": {
+                "title": "24/7 support",
+                "description": "Our dedicated support team is available 24/7 via chat, email, and phone, and helps you as soon as you need us!"
+            },
+            "daily_backup": {
+                "title": "Daily backup",
+                "description": "We run a backup of our entire server environment every night in case you happen to delete or break something"
+            },
+            "money_back": {
+                "title": "30-day money-back guarantee",
+                "description": "We guarantee that you will be satisfied with our services and therefore offer a 45-day money-back guarantee on your web hosting."
+            },
+            "24_7_monitoring": {
+                "title": "24/7 monitoring",
+                "description": "We monitor our services around the clock, and if anything goes down, our technicians receive an alert immediately."
+            }
+        }
+    },
+    "ProductsList": {
+        "title": "Security services for your website",
+        "cards": {
+            "sectigo_ssl": {
+                "title": "Sectigo SSL Wildcard",
+                "description": "is an important addition to have on your website.",
+                "price_value": "€140",
+                "price_prefix": "From.",
+                "dropdown_label": "12 month - €140"
+            },
+            "bitninja": {
+                "title": "BitNinja",
+                "description": "Ultimate security for your Linux server.",
+                "price_value": "€13",
+                "price_prefix": "From.",
+                "dropdown_label": "1 month - €13"
+            },
+            "patchman": {
+                "title": "Kraken Patchman",
+                "description": "Automate security updates.",
+                "price_value": "€10",
+                "price_prefix": "From.",
+                "dropdown_label": "1 month - €10"
+            },
+            "managed_server": {
+                "title": "Managed Server",
+                "description": "Complete managed service for your server. Installation, monitoring, 24/7 technical support, and updates.",
+                "price_value": "€40",
+                "price_prefix": "From.",
+                "dropdown_label": "1 month - €40"
+            },
+            "secure_web": {
+                "title": "Kraken Secure Web",
+                "description": "Our cleanup scanner that automatically removes malicious code from the website's database and files.",
+                "price_value": "€150",
+                "price_prefix": "From.",
+                "dropdown_label": "12 month - €150"
+            },
+            "id_protection": {
+                "title": "ID Protection - Business",
+                "description": "With Kraken ID Protection, we guarantee that you will not be spammed by salespeople and companies.",
+                "price_value": "€150",
+                "price_prefix": "From.",
+                "dropdown_label": "12 month - €150"
+            },
+            "secure_vpn": {
+                "title": "Kraken Secure VPN",
+                "description": "Browse securely by encrypting your traffic from prying eyes, hide your IP address and location. With Kraken VPN you are safe",
+                "price_value": "€150",
+                "price_prefix": "From.",
+                "dropdown_label": "12 month - €150"
+            }
+        },
+        "button": "Order now"
+    },
+    "ProductsVision": {
+        "title": "Unleash Your Vision. We Handle the Rest.",
+        "description": "We know security and integrity are important to you. That's why Kraken Hosting has thought of absolutely everything, so you, our client, can focus on what you do best: your vision, your sales, your message. Let us take care of your website, web hosting and everything in between."
+    }
+}

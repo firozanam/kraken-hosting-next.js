@@ -1,0 +1,61 @@
+{
+    "Hero": {
+        "title": "About <span class=\"text-[#bff747]\">KrakenHosting</span>",
+        "description": "KrakenHosting has gradually evolved into a leading player in offshore web hosting. By collaborating closely with industry-leading partners, we ensure our customers always have access to the most cutting-edge technology in the web hosting industry.",
+        "why_choose_title": "Why Choose KrakenHosting?",
+        "features": [
+            "Leading offshore web hosting provider",
+            "Identity, server & network protection",
+            "Global multi-datacenter redundancy",
+            "Privacy-focused hosting infrastructure",
+            "24/7/365 managed expert support"
+        ]
+    },
+    "Mission": {
+        "title": "Our Mission: <span class=\"text-[#bff747]\">Protection And Peace Of Mind</span>",
+        "description": "Our core philosophy is built on providing the highest possible level of protection to all our offshore customers. We prioritize identity protection, server security, and network protection in every aspect of our products and services."
+    },
+    "Support": {
+        "title": "24/7 Expert Support, <span class=\"text-[#bff747]\">365 Days A Year</span>",
+        "description": "Through our 24/7 Managed Services program we deliver professional, expert-level support for all emergency situations.",
+        "cards": [
+            {
+                "title": "Real Support Operators",
+                "description": "Instant access to real engineers—no bots, no queues."
+            },
+            {
+                "title": "Ticketing System",
+                "description": "Track every request from open to resolution in real time."
+            },
+            {
+                "title": "Live Chat",
+                "description": "Get instant answers from our support agents directly via our Live Chat."
+            }
+        ]
+    },
+    "Stats": {
+        "cards": [
+            {
+                "title": "2500+ Clients",
+                "description": "More than 2500 customers worldwide trust KrakenHosting for secure offshore hosting services."
+            },
+            {
+                "title": "8 Global Datacenters",
+                "description": "Eight worldwide data centers delivering high availability, redundancy, and performance."
+            },
+            {
+                "title": "99.9% Uptime SLA",
+                "description": "Guaranteed uptime with service level agreement — reliable infrastructure ensuring your services stay online."
+            }
+        ]
+    },
+    "Infrastructure": {
+        "title": "KrakenHosting <span class=\"text-[#bff747]\">Global Infrastructure</span>",
+        "description": "Operating from eight global data centers—a number that is continuously growing—KrakenHosting offers unparalleled choice and redundancy for your business."
+    },
+    "CTA": {
+        "title": "Let’s Secure Your Infrastructure",
+        "description": "KrakenHosting does not just deliver hosting; we deliver a reliable, secure, and globally redundant platform for your business success.",
+        "button": "Contact Us"
+    }
+}

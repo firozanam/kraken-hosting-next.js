@@ -1,0 +1,62 @@
+{
+    "KrakenSecureWebHero": {
+        "title": "We protect your data and guarantee your anonymity",
+        "description": " ",
+        "features": {
+            "security": {
+                "title": "100% anonymous"
+            },
+            "seo": {
+                "title": "No Personal Info Required"
+            },
+            "padlock": {
+                "title": "Malware removal"
+            }
+        }
+    },
+    "KrakenSecureWebBenefits": {
+        "title": "Why you need to protect your website from hackers",
+        "blocks": {
+            "trust_credibility": {
+                "title": "Trust and Credibility",
+                "description": "In an era of increasing digital threats, a standard hosting plan isn't always enough. Kraken Secure provides a fortified layer of defense designed specifically for users who demand absolute privacy and resilience. Here is why Kraken Secure is the ultimate choice for your digital assets:"
+            },
+            "threat_mitigation": {
+                "title": "Proactive Threat Mitigation",
+                "description": "We don’t just react to attacks; we prevent them. Our infrastructure is designed to identify and neutralize malicious traffic, protecting your site from hackers and DDoS attempts before they reach your front door."
+            },
+            "data_integrity": {
+                "title": "Ironclad Data Integrity",
+                "description": "By combining advanced server-side hardening with industry-leading encryption, we ensure that your sensitive data remains yours. Your information is stored in high-security offshore environments, far beyond the reach of unauthorized interference."
+            },
+            "sovereignty": {
+                "title": "Operational Sovereignty",
+                "description": "Most security providers bow to external pressure or meritless complaints. Kraken Secure is built on the principle of a free internet, ensuring your services stay online regardless of the noise or takedown attempts from third parties."
+            },
+            "performance_trust": {
+                "title": "Maximum Performance & Trust",
+                "description": "Security shouldn't slow you down. Our optimization ensures that while your site is locked down tight, it still delivers lightning-fast load times, while the included SSL/TLS protocols signal immediate trust to your visitors."
+            }
+        }
+    },
+    "KrakenSecureWebInstallation": {
+        "headline_line1": "Don't leave your website's survival to chance.",
+        "headline_line2": "Fortify your presence with <green>Krakenhosting.io</green>",
+        "headline_line3": "Secure web.",
+        "pricing": {
+            "title": "Kraken Secure Web",
+            "subtitle": "Scan and remove security threats",
+            "from": "From",
+            "price": "€11",
+            "period": "/month",
+            "features": [
+                "DAILY MALWARE SCANNING WITH AUTOMATIC REMOVAL",
+                "COMPREHENSIVE RISK ANALYSIS",
+                "WEEKLY REPORTS ON YOUR SITE'S ACTIVITY",
+                "REAL-TIME MONITORING VIA THE CONTROL PAN"
+            ],
+            "duration_option": "12 month - €110",
+            "button": "Order now"
+        }
+    }
+}

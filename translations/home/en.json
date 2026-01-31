@@ -146,5 +146,58 @@
             "title": "Money Back Guarantee",
             "description": "Try our hosting risk-free. If it's not right for you, get a full refund within 30 days."
         }
+    },
+    "MigrationServices": {
+        "floating_text": "Wow that was easy...",
+        "title": "Free Migration Services",
+        "description": "Kraken Hosting is committed to making your website transfer from ANY provider absolutely hassle-free! At Kraken Hosting we want you to get up and running fast. Thats why you get a 100% worry-free, no-cost account migration by our experts.",
+        "support_title": "24/7/ 365 Support team!",
+        "cta_text": "Migrate to kraken Hosting today ..."
+    },
+    "MigrationSupport": {
+        "title": "24/7 Live Support",
+        "description": "Struggling? Our hosting professionals are readily available to help you through Live Chat. No matter if it's your first time setting up or an issue needs resolving, we can assist with any Shared Hosting requirement that may arise. Reach out now and let us make the web hosting process easy!",
+        "live_chat": "24/7 Live phone an chat Support",
+        "ticket": "Ticket Support"
+    },
+    "NextGenHosting": {
+        "title": "Next-Generation Hosting Built for Speed and Growth",
+        "subtitle": "One platform with optimized stack, managed security, pro tooling, and 24/7 help to keep your projects moving.",
+        "features": {
+            "ssd": {
+                "title": "SSD & NVMe Hosting",
+                "description": "Experience ultra-fast performance with our NVMe hosting, delivering rapid data access and unmatched reliability."
+            },
+            "cache": {
+                "title": "Built-In Cache",
+                "description": "Boost your site speed with built-in caching. Varnish, Redis, and Memcached work together to deliver faster page loads, lower CPU usage, and smoother performance for all applications."
+            },
+            "stack": {
+                "title": "Optimized Stack",
+                "description": "Our stack includes Apache and NGINX as web servers, PHP-FPM and MySQL/MariaDB as databases for better performance."
+            },
+            "php": {
+                "title": "PHP Versions",
+                "description": "We support PHP 5.6.x and the latest versions of PHP 8.x so you can test compatibility and switch versions accordingly."
+            },
+            "uptime": {
+                "title": "99.99% Uptime",
+                "description": "True hosting with no single point of failure. Our hosting dynamically move, balance and tune the clients instances to guarantee an extraordinary uptime."
+            },
+            "hardware": {
+                "title": "Ultra Optimized",
+                "description": "Built on SuperMicro hardware with AMD EPYC 4.2GHz CPUs, offering unmatched performance and redundancy across network, power, and storage."
+            }
+        }
+    },
+    "VisionSection": {
+        "title": "Unleash Your Vision. We Handle the Rest.",
+        "subtitle": "We know security and integrity are important to you. That's why Kraken Hosting has thought of absolutely everything, so you, our client, can focus on what you do best: your vision, your sales, your message. Let us take care of your website, web hosting and everything in between.",
+        "banner": {
+            "title": "Migrate to the Perfect Managed Hosting for Free!",
+            "description": "Everything associated with your website is perfectly copied, re-installed, and re-configured on your new server, With the least impact to your website and email services.",
+            "cta_button": "Choose Plan",
+            "guarantee": "30 Day Money-back Guarantee"
+        }
     }
 }

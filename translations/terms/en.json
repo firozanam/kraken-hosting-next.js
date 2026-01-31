@@ -1,0 +1,164 @@
+{
+    "Terms": {
+        "title": "Terms & Conditions",
+        "revised": "Revised: 12.12.2025",
+        "overview": {
+            "title": "Overview",
+            "content": "READ THIS AGREEMENT CAREFULLY BEFORE USING ANY KRAKEN SERVICE. THIS IS A LEGALLY BINDING AGREEMENT BETWEEN CUSTOMER (referred to herein as \"Customer\") AND KRAKEN.",
+            "agreement": "Kraken agrees to provide and furnish services to the Customer, subject to the following Terms of Service. Use of the Kraken service constitutes acceptance and agreement to our Terms of Service. We reserve the right to make changes to the provided Terms of Service as needed, without notice to our clients."
+        },
+        "sections": {
+            "1": {
+                "title": "1. Service Nature",
+                "content": "KrakenHosting provides privacy-focused and jurisdictionally distributed hosting services. Server locations may vary across multiple countries, and infrastructure may change without prior notice. All Services are provided “as-is”, without warranties, and with the understanding that offshore hosting operates under different legal expectations than domestic hosting providers."
+            },
+            "2": {
+                "title": "2. Account Registration",
+                "content": "To create an account, you must provide accurate and up-to-date information. We reserve the right to refuse service, request verification, or terminate accounts at our discretion. You are responsible for all activity conducted through your account."
+            },
+            "3": {
+                "title": "3. Acceptable Use Policy (AUP)",
+                "content": "Customers must not use the Services for:",
+                "list": [
+                    "Child sexual abuse material (zero tolerance)",
+                    "Malware, ransomware, botnets",
+                    "Phishing, identity theft, or financial fraud schemes",
+                    "Sending unsolicited bulk email (SPAM)",
+                    "Activities that intentionally cause harm to networks or third parties",
+                    "Hosting content illegal under universally recognized international standards"
+                ],
+                "footer": "Grey-area or high-risk content (IPTV, adult content, crypto services, privacy tools, proxies, etc.) is allowed as long as it does not violate the laws of the hosting jurisdiction and does not threaten infrastructure stability. We reserve the right to decide what constitutes abuse."
+            },
+            "4": {
+                "title": "4. Customer Responsibilities",
+                "content": "You are solely responsible for:",
+                "list": [
+                    "The content you host",
+                    "The security and configuration of your server",
+                    "Maintaining backups",
+                    "Ensuring compliance with all applicable laws relevant to your use",
+                    "Responding to forwarded complaints"
+                ],
+                "footer": "KrakenHosting is not liable for data loss, misconfiguration, breaches caused by weak credentials, or failure to secure your environment."
+            },
+            "5": {
+                "title": "5. Payment Terms",
+                "list": [
+                    "Payments must be completed before service activation.",
+                    "Late or missing payments result in automatic suspension.",
+                    "We do not restore data from expired services.",
+                    "Crypto payments are final and non-refundable due to blockchain immutability.",
+                    "Refunds (if any) are given solely at KrakenHosting’s discretion."
+                ],
+                "footer": "Chargebacks result in immediate account termination."
+            },
+            "6": {
+                "title": "6. Service Level Agreement (SLA)",
+                "content": "We target 99.9% uptime monthly, excluding:",
+                "list": [
+                    "Scheduled maintenance",
+                    "External network outages",
+                    "Cyberattacks (e.g., DDoS)",
+                    "Force majeure events",
+                    "Customer-caused configuration issues"
+                ],
+                "footer": "If uptime falls below SLA, customers may request service credits. Service credits are the sole remedy for downtime."
+            },
+            "7": {
+                "title": "7. Abuse & Notice Handling",
+                "content": "KrakenHosting is an offshore provider. We do not automatically enforce foreign legal notices. However:",
+                "list": [
+                    "Valid complaints may be forwarded to the customer",
+                    "Only complaints based on the hosting jurisdiction’s laws may require action",
+                    "Repeated, severe abuse affecting network health can result in suspension"
+                ],
+                "footer": "KrakenHosting does not monitor customer content and is not liable for hosted material."
+            },
+            "8": {
+                "title": "8. Intellectual Property Rights",
+                "list": [
+                    "You retain ownership of all content you upload.",
+                    "You grant KrakenHosting a non-exclusive license to store, transmit, and process data solely for delivering the Services.",
+                    "KrakenHosting owns all operational software, backend systems, branding, infrastructure, and intellectual property related to the Service."
+                ]
+            },
+            "9": {
+                "title": "9. Privacy & Data Protection",
+                "content": "KrakenHosting follows strict internal privacy principles:",
+                "list": [
+                    "We do not sell customer data.",
+                    "We do not monitor customer activity.",
+                    "We do not retain logs unless required by the hosting jurisdiction.",
+                    "We do not respond to foreign government requests unless legally required under applicable local law."
+                ],
+                "footer": "For EU clients, KrakenHosting adheres to GDPR principles, but is not an EU-based entity. See our Privacy Policy for full details."
+            },
+            "10": {
+                "title": "10. Suspension & Termination",
+                "content": "We may suspend or terminate service if:",
+                "list": [
+                    "Payments are late",
+                    "AUP is violated",
+                    "Repeated abuse complaints threaten operational stability",
+                    "Fraudulent, false, or misleading information is provided",
+                    "Activities present legal or technical risks"
+                ],
+                "footer": "No refund is provided in cases of violation or termination."
+            },
+            "11": {
+                "title": "11. Limitation of Liability",
+                "content": "To the fullest extent permitted by international commercial standards:",
+                "list": [
+                    "Services are provided without warranties of any kind",
+                    "KrakenHosting is not responsible for:\n  – Lost profits\n  – Business interruption\n  – Data loss\n  – Security breaches caused by user negligence\n  – Third-party actions",
+                    "Our total liability is strictly limited to the amount paid by the customer in the last 12 months."
+                ]
+            },
+            "12": {
+                "title": "12. Indemnification",
+                "content": "You agree to indemnify and hold KrakenHosting harmless against any claims, damages, or liabilities arising from:",
+                "list": [
+                    "Your content",
+                    "Your activities using the Services",
+                    "Legal disputes involving your hosted material",
+                    "Violations of these Terms"
+                ]
+            },
+            "13": {
+                "title": "13. Force Majeure",
+                "content": "We are not liable for delays or failures caused by circumstances outside our reasonable control, including:",
+                "list": [
+                    "Natural disasters",
+                    "Cyberattacks",
+                    "Political instability",
+                    "Power or global network failures",
+                    "War, sanctions, or regulatory actions"
+                ],
+                "footer": "Services may be partially or fully unavailable during such events."
+            },
+            "14": {
+                "title": "14. Governing Law & Dispute Resolution (International / Multi-Jurisdictional)",
+                "content": "This Agreement is governed by general principles of international commercial law and cross-border digital service norms. Because KrakenHosting operates servers in multiple jurisdictions, and because locations may change over time, no single national laws shall exclusively govern this Agreement.\n\nAny dispute, claim, or controversy shall be resolved exclusively through binding arbitration, conducted:",
+                "list": [
+                    "In English",
+                    "By a neutral arbitrator mutually agreed upon",
+                    "Either remotely via secure online platform, or",
+                    "At a mutually agreed physical location"
+                ],
+                "footer": "Arbitration decisions are final and binding. Class actions and group litigation are not permitted. Each party bears its own legal costs unless the arbitrator decides otherwise."
+            },
+            "15": {
+                "title": "15. Modifications to Terms",
+                "content": "We may update or modify these Terms at any time. Updated Terms take effect immediately upon publication. Continued use of the Services constitutes acceptance of the updated Agreement."
+            },
+            "16": {
+                "title": "16. Corporate Entity Information",
+                "content": "This website and the services offered are operated by Northlayer Web Services LLC. PixelPilot Holdings LLC acts as the parent holding company."
+            },
+            "17": {
+                "title": "17. Contact",
+                "content": "KrakenHosting Legal & Support"
+            }
+        }
+    }
+}

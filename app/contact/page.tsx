@@ -1,11 +1,21 @@
+import { ContactHero } from "@/components/contact/ContactHero";
+import { ContactContent } from "@/components/contact/ContactContent";
+import { useTranslations } from "next-intl";
+
+export const metadata = {
+  title: 'Contact Us | Kraken Hosting',
+  description: 'Get in touch with Kraken Hosting support team. We are available 24/7/365 to assist you.',
+};
+
 export default function ContactPage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center py-32 px-16 bg-white dark:bg-black">
-        <h1 className="text-4xl font-bold text-black dark:text-zinc-50">
-          Hello World
-        </h1>
-      </main>
-    </div>
+    <main className="w-full min-h-[100dvh] bg-[#13191d] overflow-x-hidden">
+      <div className="relative w-full z-10 isolate transform-gpu">
+        <ContactHero />
+      </div>
+      <div className="relative w-full z-30 isolate transform-gpu [transform:translate3d(0,0,0)] [backface-visibility:hidden] pt-px clear-both">
+        <ContactContent />
+      </div>
+    </main>
   );
 }

@@ -1,5 +1,7 @@
-import Link from "next/link";
+"use client";
+
 import { useTranslations } from "next-intl";
+import { FadeIn } from "@/components/ui/FadeIn";
 
 interface Plan {
     id: string; // Added ID to help with key access if needed, though mostly visual
@@ -93,13 +95,14 @@ export const PricingPlans = () => {
         <section className="relative w-full bg-[#13191d] pt-20 lg:pt-32 pb-20 lg:pb-32">
 
             {/* Left connected blop - Moved inside container for correct positioning */}
-            <div className="w-[90%] lg:w-[75%] mx-auto relative z-10">
+            <div className="w-[90%] lg:w-[85%] mx-auto container-ultrawide relative z-10">
                 {/* Visual Blop - Positioned to connect upwards */}
-                <div className="absolute top-0 left-0 -translate-y-1/2 w-[250px] h-[250px] sm:w-[500px] sm:h-[500px] lg:w-[600px] lg:h-[600px] bg-[#9fa3a7]/20 blur-[120px] rounded-full pointer-events-none" />
+                {/* Visual Blop - Optimized using radial gradient instead of blur */}
+                <div className="absolute top-0 left-0 -translate-y-1/2 w-[250px] h-[250px] sm:w-[500px] sm:h-[500px] lg:w-[600px] lg:h-[600px] bg-[radial-gradient(circle,rgba(159,163,167,0.15)_0%,transparent_70%)] pointer-events-none" />
 
                 {/* Section Header */}
                 <div className="text-center mb-12 lg:mb-20 space-y-4 relative z-20">
-                    <h2 className="font-bold leading-tight text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl text-white">
+                    <h2 className="font-bold leading-tight text-3xl md:text-4xl lg:text-5xl text-white">
                         {t("title")}
                     </h2>
                     <p className="text-gray-400 text-sm lg:text-base xl:text-lg max-w-2xl mx-auto">
@@ -109,12 +112,14 @@ export const PricingPlans = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 relative z-20">
                     {plans.map((plan, index) => (
-                        <div
+                        <FadeIn
                             key={index}
+                            delay={index * 100}
+                            duration={500}
                             className={`rounded-3xl p-6 flex flex-col h-full relative group transition-transform duration-300 hover:-translate-y-2
                                 ${plan.isPopular
                                     ? "bg-gradient-to-r from-[#BFF747] to-[#86efac] text-[#13191d]"
-                                    : "bg-[#000000] text-white"
+                                    : "bg-[#090a19] text-white"
                                 }
                             `}
                         >
@@ -178,7 +183,7 @@ export const PricingPlans = () => {
                                     {t("order_now")}
                                 </button>
                             </div>
-                        </div>
+                        </FadeIn>
                     ))}
                 </div>
             </div>

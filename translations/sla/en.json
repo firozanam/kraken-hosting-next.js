@@ -1,0 +1,108 @@
+{
+    "SLA": {
+        "title": "Service Level Agreement",
+        "revised": "Revised: 12.12.2025",
+        "sections": {
+            "1": {
+                "title": "1. Purpose and Scope",
+                "content": "This SLA outlines the service-performance targets, remedies, and limitations applicable to all KrakenHosting offshore services, including VPS, dedicated servers, cloud environments, and custom hosting solutions."
+            },
+            "2": {
+                "title": "2. Uptime Guarantee",
+                "content": "Uptime is calculated monthly and represents network accessibility from our infrastructure to upstream backbone providers.",
+                "list": [
+                    {
+                        "term": "Standard Hosting:",
+                        "definition": "99.9 % monthly uptime"
+                    },
+                    {
+                        "term": "Premium Hosting:",
+                        "definition": "99.99 % monthly uptime"
+                    }
+                ]
+            },
+            "3": {
+                "title": "3. Key Definitions",
+                "definitions": [
+                    {
+                        "term": "Network Downtime:",
+                        "definition": "Period during which Customer cannot reach the server because of a failure in KrakenHosting’s network, verified by our monitoring."
+                    },
+                    {
+                        "term": "Excluded Unavailability:",
+                        "definition": "Scheduled maintenance, customer mis-configuration, third-party software failure, DDoS or other hostile traffic, force-majeure events, upstream outages, or any issue outside KrakenHosting’s direct control."
+                    }
+                ],
+                "support": {
+                    "term": "Support Response Time:",
+                    "definition": "Time between ticket creation and first human acknowledgement (not resolution).",
+                    "list": [
+                        "Standard SLA: ≤ 120 min",
+                        "Premium SLA: ≤ 30 min"
+                    ]
+                }
+            },
+            "4": {
+                "title": "4. Remedies – Service Credits",
+                "content": "If we fail to meet the monthly uptime target you may request Service Credits:",
+                "credits": [
+                    {
+                        "condition": "< 99.9 %",
+                        "value": "10 % of monthly fee"
+                    },
+                    {
+                        "condition": "< 99.0 %",
+                        "value": "25 % of monthly fee"
+                    },
+                    {
+                        "condition": "< 95.0 %",
+                        "value": "50 % of monthly fee (maximum)"
+                    }
+                ],
+                "footer": "Credits are applied to future invoices, cannot be exchanged for cash, and are your sole remedy for SLA violations."
+            },
+            "5": {
+                "title": "5. Claiming Service Credits",
+                "list": [
+                    "Open a support ticket within 48 h of the incident start.",
+                    "Include account details and a clear description of the outage.",
+                    "Allow us to verify the event with our internal monitoring."
+                ],
+                "footer": "Claims received after 48 h may be denied."
+            },
+            "6": {
+                "title": "6. Scheduled Maintenance",
+                "content": "We may perform maintenance to preserve performance, security, or compliance. Maintenance windows are excluded from uptime calculations and, whenever possible, announced in advance."
+            },
+            "7": {
+                "title": "7. Hardware Replacement",
+                "content": "If a dedicated-server component fails we will replace it within two (2) hours of confirmed diagnosis. The timer starts when we acknowledge the ticket and ends when the new part is installed and powered on."
+            },
+            "8": {
+                "title": "8. Monitoring & Verification",
+                "content": "Only KrakenHosting’s internal monitoring data is used to determine downtime for SLA purposes. External monitors may be consulted but are not authoritative."
+            },
+            "9": {
+                "title": "9. SLA Exclusions",
+                "content": "This SLA does not cover interruptions caused by:",
+                "list": [
+                    "Terms & Conditions or AUP violations",
+                    "Customer-installed software or scripts",
+                    "Malware or customer-side security breaches",
+                    "DDoS attacks directed at your service",
+                    "Configuration changes made by you",
+                    "Force-majeure events (natural disasters, war, sanctions, etc.)",
+                    "Upstream provider outages outside our control"
+                ]
+            },
+            "10": {
+                "title": "10. Changes to this SLA",
+                "content": "We may update this SLA at any time; the revised version takes effect immediately upon publication on our website. Continued use of the Services after publication constitutes acceptance of the updated SLA."
+            },
+            "11": {
+                "title": "11. Contact",
+                "content": "Questions or credit requests, please contact:"
+            }
+        }
+    }
+}

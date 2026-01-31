@@ -1,0 +1,235 @@
+{
+    "HostingHero": {
+        "title": "Up to 20x Faster <span class=\"text-[#89d957]\">Shared Hosting</span>",
+        "subtitle": "The best place to get secure, inexpensive shared web hosting services for bloggers, small-business owners, web designers, and developers. Get your website online and start building it right away.",
+        "features": [
+            "99.99% Uptime Guarantee",
+            "Free Real-Time Snapshot",
+            "Free DDoS Protection",
+            "24/7 Expert Support"
+        ],
+        "starting_at": "Starting at",
+        "price": "€0.9",
+        "period": "euro first year",
+        "cta_button": "View plans",
+        "bottom_features": {
+            "bandwidth": "Unlimited Bandwidth & Databases",
+            "ddos": "Free DDoS Protection",
+            "managed": "Managed servers"
+        }
+    },
+    "Pricing": {
+        "title": "Choose Your Shared Web Hosting Plan",
+        "subtitle": "Enjoy a risk-free experience with our superior 30-Day Money-Back Guarantee and budget friendly prices.",
+        "first_year": "First Year",
+        "billing_cycle": "Annual billing",
+        "managed_text": "Managed WordPress",
+        "cta_button": "Order now",
+        "plans": [
+            {
+                "name": "Shared Starter",
+                "description": "The ideal starting point into your digital journey",
+                "save_badge": "You save 75%",
+                "price": "€0.9",
+                "renewal": "Then € 6.99/mo.",
+                "features": [
+                    "Free domain",
+                    "1 website",
+                    "Website Builder",
+                    "3 email accounts",
+                    "50 GB SSD storage",
+                    "Daily backup",
+                    "SSL certificate",
+                    "One click installer"
+                ]
+            },
+            {
+                "name": "Growster",
+                "description": "Your business is growing, and your website should too. The Growster plan is designed for those who have outgrown the basics and need more power",
+                "save_badge": "You save 86%",
+                "price": "€20",
+                "renewal": "Then 11.99/mo.",
+                "features": [
+                    "Free domain",
+                    "5 website",
+                    "Website Builder",
+                    "30 email accounts",
+                    "100 GB SSD storage",
+                    "Daily backup",
+                    "SSL certificate",
+                    "One click installer"
+                ]
+            },
+            {
+                "name": "Entrepreneur",
+                "description": "Our Entrepreneur plan provides the professional foundation your growing business demands. It's balanced for performance and reliability, giving you the edge you need to stand out in a competitive market.",
+                "save_badge": "You save 75%",
+                "price": "€50",
+                "renewal": "Then 16.99/mo.",
+                "features": [
+                    "Free domain",
+                    "20 websites",
+                    "Website Builder",
+                    "50 email accounts",
+                    "200 GB SSD storage",
+                    "Daily backup",
+                    "SSL certificate",
+                    "One click installer"
+                ]
+            },
+            {
+                "name": "Kraken",
+                "description": "Unrivaled power for elite projects. The Kraken is built for high-traffic and total performance. We provide the tools; you provide the vision.",
+                "save_badge": "You save 75%",
+                "price": "€75",
+                "renewal": "Then 19.99/mo.",
+                "features": [
+                    "Free domain",
+                    "50 websites",
+                    "Website Builder",
+                    "Unlimited email accounts",
+                    "250 GB SSD storage",
+                    "Daily backup",
+                    "SSL certificate",
+                    "One click installer"
+                ]
+            }
+        ]
+    },
+    "Features": {
+        "title": "We provide Shared Hosting with unbeatable features and benefits",
+        "subtitle": "Experience performance that can only be described as extraordinary and shared web hosting that is unprecedented, with these exclusive free features.",
+        "uptime": {
+            "title": "99.99% Uptime",
+            "description": "We’re so confident in our infrastructure, 99% uptime guarantee."
+        },
+        "security_updates_large": {
+            "title": "Security & Updates",
+            "description": "We manage the security of your sites. We automatically update your instances and their plugins to the latest version and patch against common exploits."
+        },
+        "bandwidth": {
+            "title": "Unlimited Bandwidth",
+            "description": "There are no limits on the amount of traffic your hosting site or app can receive. Unlimited traffic is free and applies to both incoming and outgoing data."
+        },
+        "backups": {
+            "title": "Free Backups",
+            "description": "All our shared hosting account backups are processed on a daily basis. We retain multiple recovery points."
+        },
+        "ssl": {
+            "title": "Free SSL Certificate",
+            "description": "We provide a free 'Let’s Encrypt' SSL certificate, instantly boosting SEO with Google."
+        },
+        "security_updates_small": {
+            "title": "Security & Updates",
+            "description": "We automatically update your instances & their plugins to the latest version & patch against common exploits."
+        },
+        "money_back": {
+            "title": "Money Back Guarantee",
+            "description": "If it’s not right for you, get a full refund within 30 days."
+        },
+        "plesk": {
+            "title": "Powered by Plesk",
+            "description": "The most popular and powerful web hosting control panel for Window and linux"
+        },
+        "storage": {
+            "title": "Lightning-Fast Storage",
+            "description": "Your shared server plan is hosted on our Nvme SSD storages which delivers reliable data storage."
+        },
+        "monitoring": {
+            "title": "Pro-active Monitoring",
+            "description": "We monitor your server 24/7 and will respond immediately to any thing you need."
+        }
+    },
+    "SupportSection": {
+        "title": "Tired of Waiting for Your Hosting Support?",
+        "description": "Constant delays and repetitive chat bots can be a serious bottleneck for your business. We understand the frustration of not getting the answers you need when you need them.",
+        "benefits": [
+            "Switch to a hosting partner that prioritizes your uptime",
+            "Real Human Expertise Skip the robots and talk directly to our competent technical team.",
+            "Rapid Response Times: Get fast, actionable solutions without the wait.",
+            "Seamless Migration: We handle the transition so you can focus on your work.",
+            "Experience the service level your business deserves."
+        ],
+        "migration_title": "Migrate to Krakenhosting.io for Free!",
+        "migration_description": "Your website can now be moved for free to krakenhosting. Everything related to your website is flawlessly replicated, reinstalled, and reconfigured on your new server.",
+        "cta_button": "Choose a plan >",
+        "guarantee": "30 Day Money-back Guarantee"
+    },
+    "AppDeployment": {
+        "title": "Shared Hosting with Fast OS & App Deployment",
+        "description": "Reliable cPanel Extended to your client area, shared web hosting that’s designed to bring out the best of your website. A cPanel license is included with all of our plans with a 1-click installation procedure for the majority of popular web applications, such as phpBB, Joomla, WordPress, and lots of others.",
+        "tabs": {
+            "applications": "Applications"
+        }
+    },
+    "DetailedFeatures": {
+        "migration": {
+            "title": "Free Migration Services",
+            "description": "Your website can now be moved for free to Kraken Hosting. You will receive individualized service from our staff. With the least amount of disruption to your website and email services, everything related to your website is flawlessly replicated, reinstalled, and reconfigured on your new server.",
+            "bubble_text": "Wow that was easy..."
+        },
+        "support": {
+            "title": "24/7 Live Support",
+            "description": "Struggling? Our hosting professionals are readily available to help you through Live Chat. No matter if it's your first time setting up or an issue needs resolving, we can assist with any Shared Hosting requirement that may arise. Reach out now and let us make the web hosting process easy!"
+        }
+    },
+    "SharedVisionSection": {
+        "title": "Unleash Your Vision. <span class=\"text-white\">We Handle the Rest.</span>",
+        "description": "We know security and integrity are important to you. That's why Kraken Hosting has thought of absolutely everything, so you, our client, can focus on what you do best: your vision, your sales, your message. Let us take care of your website, web hosting and everything in between.",
+        "cta": {
+            "title": "Migrate to the Perfect Shared Hosting for Free!",
+            "description": "Everything associated with your website is perfectly copied, re-installed, and re-configured on your new server, With the least impact to your website and email services.",
+            "button": "Choose Plan",
+            "guarantee": "30 Day Money-back Guarantee"
+        }
+    },
+    "FAQ": {
+        "title": "Frequently Asked Questions About <span class=\"text-[#bff747]\">Shared Hosting</span>",
+        "questions": [
+            {
+                "question": "Where are the servers physically located?",
+                "answer": "Our servers are located in state-of-the-art data centers in Germany, ensuring excellent connectivity and low latency for users across Europe and beyond."
+            },
+            {
+                "question": "What control panel does krakhosting.io use?",
+                "answer": "We use cPanel, the industry-standard control panel, which provides a user-friendly interface for managing your websites, emails, databases, and files."
+            },
+            {
+                "question": "What tools or software can I use to build my website?",
+                "answer": "You can use a wide range of tools including WordPress, Joomla, Drupal, and other CMS platforms. We also offer a website builder for easy drag-and-drop site creation."
+            },
+            {
+                "question": "Do you include SSL certificates in all of your shared hosting plans?",
+                "answer": "Yes, we include free Let's Encrypt SSL certificates with all our shared hosting plans to ensure your website is secure and trusted by visitors."
+            },
+            {
+                "question": "Can I upgrade to a more powerful hosting plan later?",
+                "answer": "Absolutely! You can easily upgrade your plan at any time through your client area as your website grows and requires more resources."
+            },
+            {
+                "question": "What is Shared Hosting?",
+                "answer": "Shared Hosting is a web hosting service where multiple websites act as 'tenants' on a single server. It's an affordable and popular solution for personal blogs and small business websites."
+            },
+            {
+                "question": "Why should I start with Shared Hosting?",
+                "answer": "Shared Hosting is cost-effective and easy to manage, making it the perfect entry point for beginners. It handles the server maintenance so you can focus on building your site."
+            },
+            {
+                "question": "What exactly is shared in shared web hosting?",
+                "answer": "In shared hosting, server resources like CPU, RAM, and disk space are shared among all accounts on the server, allowing for significantly lower costs compared to dedicated options."
+            },
+            {
+                "question": "How can I buy a domain with my web hosting plan?",
+                "answer": "You can register a new domain or transfer an existing one directly during the checkout process when purchasing your hosting plan."
+            },
+            {
+                "question": "Can I get a professional business email account with a web hosting plan?",
+                "answer": "Yes, all our shared hosting plans allow you to create professional email addresses using your domain name (e.g., yourname@yourdomain.com)."
+            },
+            {
+                "question": "How much traffic can web hosting handle?",
+                "answer": "Our shared hosting plans are optimized to handle significant traffic for small to medium-sized sites. For high-traffic sites, we recommend our VPS or specialized hosting plans."
+            }
+        ]
+    }
+}

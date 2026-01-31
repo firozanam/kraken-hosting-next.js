@@ -1,0 +1,294 @@
+{
+    "DomainHero": {
+        "title": "The \u003cspan class=\"text-[#89d957]\"\u003emagic\u003c/span\u003e starts with a \u003cspan class=\"text-[#a855f7]\"\u003edomain\u003c/span\u003e...",
+        "description": "Unlock Your Digital Potential. Every powerful online presence, every successful brand, and every seamless customer experience begins with one fundamental step: a perfectly chosen domain name. It's more than just an address; it's your digital identity, your first impression, and the cornerstone of your brand's credibility.",
+        "bottom_features": {
+            "ssl": "Free SSL",
+            "ddos": "Free DDoS Protection",
+            "support": "24/7 Customer support"
+        }
+    },
+    "DomainPageSearch": {
+        "title": "Everything starts with a <span>domain name...</span>",
+        "subtitle": "Register unique, memorable domains in seconds.",
+        "placeholder": "Get the best domain for your website",
+        "cta_button": "Search",
+        "tlds": {
+            "se": {
+                "price": "Register: 5 sek",
+                "promo": "Free for life with Hosting"
+            },
+            "com": {
+                "price": "Register: €7",
+                "promo": "Free for life with Hosting"
+            },
+            "es": {
+                "price": "Register: €1.99",
+                "promo": "Free for life with Hosting"
+            }
+        }
+    },
+    "ControlSection": {
+        "title": "Many possibilities. <span class=\"text-[#89d957]\">Complete control</span>",
+        "features": [
+            {
+                "title": "Smart SEO Redirects",
+                "description": "Deploy free 301 forwarding instantly to maintain your domain's visibility."
+            },
+            {
+                "title": "Easy DNS setup",
+                "description": "Create a DNS configuration - fx of Google Workspace (Gmail), Squarespace, Wix.com, Shopify and Weebly."
+            },
+            {
+                "title": "You own your domain",
+                "description": "You always retain ownership of a domain and are free to do whatever you want with it."
+            }
+        ]
+    },
+    "FreeDomainSection": {
+        "title": "Get Your Domain for Free",
+        "subtitle": "Select an annual hosting plan and enjoy a free domain!",
+        "tlds": {
+            "se": {
+                "price": "Register for 5Kr",
+                "promo": "Free for life with hosting"
+            },
+            "com": {
+                "price": "Register for €7",
+                "promo": "Free for life with hosting"
+            }
+        }
+    },
+    "ManagementSection": {
+        "title": "Domain Management Made Easy",
+        "subtitle": "Get the right domain for your business and manage it easily with clear, beginner-friendly tools.",
+        "content": [
+            {
+                "title": "Choosing the Right Domain Name",
+                "text": "When registering your new domain, there are a few key factors to consider. It can feel overwhelming, but these three tips will help you make the right choice:"
+            },
+            {
+                "title": "Simplicity and Memorability:",
+                "text": "Select a name that is short, easy to spell, and simple to pronounce. This makes it effortless for visitors to remember and return to your site."
+            },
+            {
+                "title": "Brand Alignment:",
+                "text": "Ensure your domain reflects your brand or business. Avoid names that could be confused with others and choose one that strengthens your unique identity."
+            },
+            {
+                "title": "SEO and Future Growth:",
+                "text": "Consider how your choice impacts search engine optimization and your potential for future expansion."
+            },
+            {
+                "title": "Be Creative with Your Domain Extension",
+                "text": "If the domain name you want is already taken, don't worry—it's the perfect opportunity to get creative with your extension."
+            },
+            {
+                "title": "",
+                "text": "At Kraken Hosting, we offer over 1,500 domain extensions to choose from. Scroll down to explore our first-year offers and find the perfect option to launch your new website today."
+            }
+        ],
+        "quote": "We didn't invent hosting, we're redefining it."
+    },
+    "TLDGridSection": {
+        "title": "Secure your digital identity at <span style=\"color: #8b5cf6;\">krakenhosting.io</span>",
+        "cta_button": "Order now",
+        "tlds": [
+            {
+                "name": ".se",
+                "description": "Build Trust with a .SE Domain Sweden's own top-level domain. Perfect for Swedish websites looking to build a reliable and local online presence.",
+                "price": "Only 5 SEK for the first year!",
+                "renewal": "Renews at 219 SEK / year",
+                "promo": "Free for life with hosting"
+            },
+            {
+                "name": ".com",
+                "description": "The world's leading domain extension. claim it at krakenhosting for...",
+                "price": "Only €7 for the first year!",
+                "renewal": "Renews at €20 / year",
+                "promo": "Free for life with hosting"
+            },
+            {
+                "name": ".online",
+                "description": "The Perfect Match for Your Brand: It doesn't get clearer than .ONLINE. Right now at a great introductory price for the first year.",
+                "price": "Only €9 for the first year!",
+                "renewal": "Renews at €43.61 / year",
+                "promo": "Renew Hosting and get 50% of the regular price"
+            },
+            {
+                "name": ".org",
+                "description": "The Perfect Match for Your Brand: It doesn't get clearer than .ONLINE. Right now at a great introductory price for the first year.",
+                "price": "Only €9.20 for the first year!",
+                "renewal": "",
+                "promo": "Free for life with hosting"
+            },
+            {
+                "name": ".nu",
+                "description": "One of Sweden's most popular TLDs. Engage your visitors with a .nu domain.",
+                "price": "Only 139 SEK for the first year!",
+                "renewal": "Renews at 210 SEK / year",
+                "promo": "Free for life with hosting"
+            },
+            {
+                "name": ".shop",
+                "description": "Built for retail. Start selling today with a .SHOP domain.",
+                "price": "Only €27.82 for the first year!",
+                "renewal": "Renews at €38.99 / year",
+                "promo": "Renew Hosting and get 50% of the regular price"
+            },
+            {
+                "name": ".co",
+                "description": "The global choice for enterprises. One of the world's most trusted TLDs.",
+                "price": "Only €37.13 for the first year!",
+                "renewal": "Renews at 38.98 / year",
+                "promo": "Renew Hosting and get 50% of the regular price"
+            },
+            {
+                "name": ".eu",
+                "description": "The official TLD for Europe. Designed for companies targeting the EU market.",
+                "price": "Only €9.21 for the first year!",
+                "renewal": "Renews at 17.88 / year",
+                "promo": "Free for life with hosting"
+            }
+        ]
+    },
+    "StartupSection": {
+        "title": "Professional Hosting for Startups at an Unbeatable Price",
+        "description": "Every big brand started somewhere. At Kraken Hosting, we believe that a tight budget shouldn't be an obstacle to your digital success. That's why we've made it possible for you to secure both your domain and web hosting for just a few euros.",
+        "emphasis": "Get the professional presence your business deserves without the high initial costs.",
+        "slogan": "Our tools. Your vision. Unlimited possibilities."
+    },
+    "HostingPlansSection": {
+        "plans": [
+            {
+                "name": "Shared Starter",
+                "description": "The ideal starting point into your digital journey",
+                "save_badge": "You save 75%",
+                "price": "€9",
+                "renewal": "Then € 6.99/mo.",
+                "features": [
+                    "Free domain",
+                    "1 website",
+                    "Website Builder",
+                    "3 email accounts",
+                    "50 GB SSD storage",
+                    "Daily backup",
+                    "SSL certificate",
+                    "One click installer"
+                ]
+            },
+            {
+                "name": "Growster",
+                "description": "Your business is growing, and your website should too. The Growster plan is designed for those who have outgrown the basics and need more power",
+                "save_badge": "You save 86%",
+                "price": "€20",
+                "renewal": "Then 11.99/mo.",
+                "features": [
+                    "Free domain",
+                    "5 website",
+                    "Website Builder",
+                    "30 email accounts",
+                    "100 GB SSD storage",
+                    "Daily backup",
+                    "SSL certificate",
+                    "One click installer"
+                ]
+            },
+            {
+                "name": "Entrepreneur",
+                "description": "Our Entrepreneur plan provides the professional foundation your growing business demands. It's balanced for performance and reliability, giving you the edge you need to stand out in a competitive market.",
+                "save_badge": "You save 75%",
+                "price": "€50",
+                "renewal": "Then 16.99/mo.",
+                "features": [
+                    "Free domain",
+                    "20 websites",
+                    "Website Builder",
+                    "50 email accounts",
+                    "200 GB SSD storage",
+                    "Daily backup",
+                    "SSL certificate",
+                    "One click installer"
+                ]
+            },
+            {
+                "name": "Kraken",
+                "description": "Unrivaled power for elite projects. The Kraken is built for high-traffic and total performance. We provide the tools; you provide the vision.",
+                "save_badge": "You save 75%",
+                "price": "€75",
+                "renewal": "Then 19.99/mo.",
+                "features": [
+                    "Free domain",
+                    "50 websites",
+                    "Website Builder",
+                    "Unlimited email accounts",
+                    "250 GB SSD storage",
+                    "Daily backup",
+                    "SSL certificate",
+                    "One click installer"
+                ]
+            }
+        ],
+        "billing_cycle": "Annual billing",
+        "first_year": "First Year",
+        "managed_text": "Managed server",
+        "cta_button": "Order now"
+    },
+    "SslCertificatesSection": {
+        "header_small": "SSL Certificates – Security You Can Trust",
+        "title": "Protect your customers’ data with industry-standard encryption.",
+        "description": "An SSL certificate is a vital security service that encrypts the traffic between your website and your visitors. This makes it impossible for unauthorized parties to intercept sensitive information, such as login credentials or credit card details.",
+        "features": [
+            "Build Trust: Show your visitors that their security is your priority.",
+            "SEO Benefits: Google and other search engines favor secure websites.",
+            "Complete Protection: Encryption for every byte of data transferred."
+        ],
+        "read_more": "Read More >"
+    },
+    "SupportSection": {
+        "title": "24/7 Live Support",
+        "description": "Struggling? Our hosting professionals are readily available to help you through Live Chat. No matter if it's your first time setting up or an issue needs resolving, we can assist with any requirement that may arise. Reach out now and let us make the process easy!"
+    },
+    "DomainFAQSection": {
+        "title": "Frequently Asked Questions About <span class=\"text-[#bff747]\">Domains</span>",
+        "subtitle": "Get clear answers about our hosting services and let krakenhosting.io assist you instantly.",
+        "questions": [
+            {
+                "question": "What is a domain name?",
+                "answer": "A domain name is your unique address on the internet (like krakenhosting.io). It serves as the gateway to your website, making it easy for visitors to find you without needing to remember complex IP addresses."
+            },
+            {
+                "question": "How do i buy a domain name?",
+                "answer": "Buying a domain is easy! Simply use the search bar at the top of this page to check if your desired name is available. If it is, add it to your cart, complete the checkout process, and it's yours!"
+            },
+            {
+                "question": "I have a domain name with a different registrar. Can I transfer it to krakenhosting.io?",
+                "answer": "Yes, absolutely. You can transfer your existing domains to Kraken Hosting. The process is simple: unlock your domain at your current registrar, get the EPP/Auth code, and initiate the transfer from our control panel."
+            },
+            {
+                "question": "What is domain privacy and do I need it?",
+                "answer": "Domain privacy protection hides your personal contact information (name, email, address) from the public WHOIS database. We highly recommend it to prevent spam, identity theft, and unwanted solicitations."
+            },
+            {
+                "question": "How many domain names can I host with KrakenHosting?",
+                "answer": "Depending on your hosting plan, you can host anywhere from a single domain to unlimited domains. Our 'Kraken' plan, for example, allows for 50 websites."
+            },
+            {
+                "question": "How to Choose a Good Domain Name?",
+                "answer": "Keep it short, memorable, and easy to spell. Avoid hyphens and numbers if possible. Try to include keywords relevant to your brand or industry, and choose a suitable extension (.com, .io, .se, etc.)."
+            },
+            {
+                "question": "Once I Register a Domain, Can I Change It Later?",
+                "answer": "No, once a domain is registered, you cannot change the name itself. However, you can register a new domain and redirect the old one, or simply start using the new one. Choose carefully!"
+            },
+            {
+                "question": "How to Check Domain Availability?",
+                "answer": "Use our domain search tool at the top of this page. Enter your desired name, and we'll instantly check its availability across hundreds of extensions."
+            },
+            {
+                "question": "How much does a domain name cost?",
+                "answer": "Domain prices vary by extension (TLD). We offer competitive pricing, with some domains starting as low as €1.99/year. Check our pricing grid for specific TLD costs."
+            }
+        ]
+    }
+}

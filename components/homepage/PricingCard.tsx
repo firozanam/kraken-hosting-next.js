@@ -10,7 +10,7 @@ export const PricingCard = () => {
     ];
 
     return (
-        <div className="bg-[#1a1b26] rounded-xl shadow-2xl w-[290px] overflow-hidden border border-white/5 font-sans z-50">
+        <div className="bg-[#090a19] rounded-xl shadow-2xl w-[290px] overflow-hidden border border-white/5 font-sans z-50">
 
             {/* Header - Kraken */}
             <div className="bg-white/[0.03] p-3 flex items-center justify-between border-b border-white/5 relative overflow-hidden">
@@ -38,7 +38,7 @@ export const PricingCard = () => {
             </div>
 
             {/* Competitors List */}
-            <div className="flex flex-col bg-[#1a1b26]">
+            <div className="flex flex-col bg-[#090a19]">
                 {competitors.map((comp, idx) => (
                     <div key={idx} className="flex items-center justify-between p-2 px-3 border-b border-white/5 last:border-0 hover:bg-white/5 transition-colors group">
                         <div className="flex items-center gap-3">

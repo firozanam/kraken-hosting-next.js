@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Globe, Zap, HardDrive, Lock } from "lucide-react";
 import { useTranslations } from "next-intl";
+import { FadeIn } from "@/components/ui/FadeIn";
 
 const CustomGlobalIcon = ({ className }: { className?: string }) => (
     <svg
@@ -25,24 +26,28 @@ export const UltraFastHosting = () => {
 
     return (
         <section className="relative w-full bg-[#13191d] py-24 lg:pt-32 lg:pb-32 overflow-hidden">
-            <div className="w-[90%] lg:w-[75%] mx-auto relative z-10">
+            <div className="w-[90%] lg:w-[85%] mx-auto container-ultrawide relative z-10">
 
                 {/* Section Header */}
-                <div className="text-center mb-16 lg:mb-24 space-y-4">
-                    <h2 className="font-bold leading-tight text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl text-white">
+                <FadeIn direction="up" duration={600} className="text-center mb-16 lg:mb-24 space-y-4">
+                    <h2 className="font-bold leading-tight text-3xl md:text-4xl lg:text-5xl text-white">
                         {t("title")}
                     </h2>
                     <p className="text-gray-400 text-sm lg:text-base xl:text-lg max-w-3xl mx-auto">
                         {t("subtitle")}
                     </p>
-                </div>
+                </FadeIn>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center mb-20 lg:mb-32">
 
                     {/* Left Content - Image (Mobile: Top, Desktop: Right via Order) */}
-                    <div className="relative w-full aspect-square lg:aspect-[4/3] flex items-center justify-center md:order-2">
+                    <FadeIn
+                        direction="zoom"
+                        duration={800}
+                        className="relative w-full aspect-square lg:aspect-[4/3] flex items-center justify-center md:order-2"
+                    >
                         {/* Optional: Add a glow/blob behind the image if needed, keeping it subtle */}
-                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-[#AC2BF1]/20 blur-[100px] rounded-full pointer-events-none -z-10" />
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-[#AC2BF1]/20 blur-[40px] md:blur-[100px] rounded-full pointer-events-none -z-10 gpu-accelerated" />
 
                         <div className="relative w-full h-full scale-100 md:scale-110 lg:scale-150">
                             <Image
@@ -53,10 +58,10 @@ export const UltraFastHosting = () => {
                                 priority
                             />
                         </div>
-                    </div>
+                    </FadeIn>
 
                     {/* Right Content - Text (Mobile: Bottom, Desktop: Left via Order) */}
-                    <div className="space-y-8 md:order-1">
+                    <FadeIn direction="right" duration={600} className="space-y-8 md:order-1">
                         {/* Badge */}
                         <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-[#AC2BF1] to-[#D54BF7]">
                             <span className="text-white font-bold text-xs lg:text-sm">{t("badge")}</span>
@@ -67,7 +72,7 @@ export const UltraFastHosting = () => {
                             <h3 className="text-2xl lg:text-3xl xl:text-4xl font-bold text-white leading-tight">
                                 {t("feature_title")}
                             </h3>
-                            <p className="text-gray-400 text-sm lg:text-base leading-relaxed">
+                            <p className="text-gray-400 text-sm lg:text-base xl:text-lg leading-relaxed">
                                 {t("feature_description")}
                             </p>
                         </div>
@@ -87,16 +92,20 @@ export const UltraFastHosting = () => {
                                 <span className="text-white text-sm lg:text-base font-medium">{t("icons.nvme_ssds")}</span>
                             </div>
                         </div>
-                    </div>
+                    </FadeIn>
                 </div>
 
                 {/* Kraken 360 Security Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-center">
 
                     {/* Left Content - Image (Mobile: Top, Desktop: Left - Natural) */}
-                    <div className="relative w-full aspect-square lg:aspect-[4/3] flex items-center justify-center">
+                    <FadeIn
+                        direction="zoom"
+                        duration={800}
+                        className="relative w-full aspect-square lg:aspect-[4/3] flex items-center justify-center"
+                    >
                         {/* Blob */}
-                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-[#AC2BF1]/20 blur-[100px] rounded-full pointer-events-none -z-10" />
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] bg-[#AC2BF1]/20 blur-[40px] md:blur-[100px] rounded-full pointer-events-none -z-10 gpu-accelerated" />
 
                         <div className="relative w-full h-full scale-100">
                             <Image
@@ -106,10 +115,10 @@ export const UltraFastHosting = () => {
                                 className="object-contain"
                             />
                         </div>
-                    </div>
+                    </FadeIn>
 
                     {/* Right Content - Text (Mobile: Bottom, Desktop: Right - Natural) */}
-                    <div className="space-y-8">
+                    <FadeIn direction="left" duration={600} className="space-y-8">
                         {/* Badge */}
                         <div className="inline-block px-6 py-2 rounded-full bg-gradient-to-r from-[#AC2BF1] to-[#D54BF7]">
                             <span className="text-white font-bold text-xs lg:text-sm">{t("security.badge")}</span>
@@ -141,7 +150,7 @@ export const UltraFastHosting = () => {
                             </div>
                         </div>
 
-                    </div>
+                    </FadeIn>
 
                 </div>
             </div>

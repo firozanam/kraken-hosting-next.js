@@ -1,0 +1,59 @@
+{
+    "Copyright": {
+        "title": "Copyright & Disclaimer",
+        "revised": "Revised: 12.12.2025",
+        "overview": {
+            "title": "Overview",
+            "content": "This Copyright & Disclaimer Policy (“Policy”) applies to all content, services, and materials provided through KrakenHosting (“we”, “us”, “our”). By accessing or using our website or Services, you (“User”, “Customer”, “Client”) agree to this Policy, which forms an integral part of our Terms & Conditions."
+        },
+        "sections": {
+            "1": {
+                "title": "1. Ownership of Website Content",
+                "content": "All textual content, graphics, logos, icons, design elements, interface components, images, software, and all other materials displayed on or accessible through krakenhosting.io are the exclusive property of KrakenHosting or its licensors, unless explicitly stated otherwise. All rights are reserved. No content may be copied, reproduced, modified, distributed, or used for commercial purposes without prior written permission from KrakenHosting."
+            },
+            "2": {
+                "title": "2. Customer-Hosted Content",
+                "content": "KrakenHosting does not claim ownership over any data or content uploaded, stored, or transmitted by customers on our servers. Customers are solely responsible for ensuring they have the legal rights to host their data, any copyright, trademark, or intellectual property issues related to their content, and responding to complaints or claims forwarded by us. KrakenHosting does not monitor, verify, or moderate customer-hosted content."
+            },
+            "3": {
+                "title": "3. Copyright Complaints (Offshore / Multi-Jurisdiction Notice Handling)",
+                "content": "KrakenHosting operates servers across multiple jurisdictions, many of which do not recognize foreign copyright takedown systems. Accordingly:",
+                "list": [
+                    "KrakenHosting does not automatically act on foreign copyright requests.",
+                    "Notices that are not legally binding under the applicable hosting jurisdiction may be ignored or forwarded to the customer for optional review.",
+                    "Only valid and enforceable complaints issued under the laws of the server's operating jurisdiction may result in required action.",
+                    "KrakenHosting is not a mediator in copyright disputes and bears no responsibility for resolving such matters."
+                ],
+                "footer": "If a complaint threatens network stability, legal compliance in the hosting jurisdiction, or operational integrity, we may take appropriate measures, including suspension or termination of service."
+            },
+            "4": {
+                "title": "4. No Legal Advice",
+                "content": "All content provided on krakenhosting.io—including text, documentation, articles, FAQs, and guides—is offered for general information purposes only. KrakenHosting does not provide legal advice, compliance guarantees, or guidance regarding copyright or intellectual property law. Users should consult qualified legal professionals for any legal matters related to their hosted content or activities."
+            },
+            "5": {
+                "title": "5. Accuracy of Information & Liability Disclaimer",
+                "content": "While we strive to provide accurate and current information, KrakenHosting makes no representations or warranties regarding accuracy, completeness, reliability, suitability, or availability. Information, products, or services on our website may change at any time without notice. KrakenHosting is not liable for errors or omissions, outdated content, misinterpretations, losses incurred from reliance on website information, or third-party content or external links. All use of information provided on our website is at the user’s own risk."
+            },
+            "6": {
+                "title": "6. Trademarks & Third-Party Rights",
+                "content": "All trademarks, service marks, logos, and brand names displayed on krakenhosting.io are the property of KrakenHosting or their respective owners. Use of any KrakenHosting trademarks without explicit permission is strictly prohibited. Mention of third-party products or entities does not imply endorsement."
+            },
+            "7": {
+                "title": "7. Customer Indemnification",
+                "content": "By using our Services, you agree to indemnify and hold KrakenHosting harmless from any copyright claims, trademark disputes, intellectual property challenges, legal or regulatory actions, or damages, losses, or liabilities arising from your hosted content. This applies regardless of jurisdiction."
+            },
+            "8": {
+                "title": "8. Relationship to Terms & Conditions",
+                "content": "This Policy is a core component of the KrakenHosting legal framework and must be read together with Terms & Conditions, Privacy Policy, and Acceptable Use Policy (AUP). In case of conflict, the Terms & Conditions shall prevail."
+            },
+            "9": {
+                "title": "9. Modifications to This Policy",
+                "content": "KrakenHosting may update or modify this Policy at any time. All changes become effective immediately upon publication. Continued use of the website or Services constitutes acceptance of the revised Policy."
+            },
+            "10": {
+                "title": "10. Contact",
+                "content": "For questions or notices related to this Policy, please contact:"
+            }
+        }
+    }
+}

@@ -1,7 +1,84 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* Custom breakpoints for 2K/4K/8K screens using Tailwind v4 */
+@custom-media --screen-3xl (min-width: 1920px);
+@custom-media --screen-4xl (min-width: 2560px);
+@custom-media --screen-8k (min-width: 7680px);
+
+html {
+  /* Lenis handles smooth scrolling */
+}
+
 @custom-variant dark (&:is(.dark *));
+
+/* 2K/4K/8K screen utility: Apply to sections for proper max-width */
+@layer utilities {
+  .container-ultrawide {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* For 4K screens, increase max-width but still cap it */
+  @media (min-width: 2560px) {
+    .container-ultrawide {
+      max-width: 2400px;
+    }
+  }
+
+  /* For 8K screens */
+  @media (min-width: 7680px) {
+    .container-ultrawide {
+      max-width: 7200px;
+    }
+  }
+
+  .content-padding-x {
+    @apply px-3 min-[400px]:px-6 sm:px-10 lg:px-16 xl:px-24;
+  }
+}
+
+/* 2K/4K responsive scaling for ultra-wide screens */
+/* 3xl: 1920px and up - 2K monitors */
+@media screen and (min-width: 1920px) {
+  html {
+    /* Slightly increase base font size for better readability on 2K+ */
+    font-size: 17px;
+  }
+
+  /* Scale blur effects up for 2K screens */
+  .gpu-accelerated {
+    filter: blur(var(--blur-2k, 120px));
+  }
+}
+
+/* 4xl: 2560px and up - 4K monitors */
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 18px;
+  }
+
+  /* Ensure sections don't have fixed heights that cut off content */
+  section {
+    min-height: auto !important;
+    height: auto !important;
+  }
+}
+
+/* Extra-wide: 3840px and up - True 4K */
+@media screen and (min-width: 3840px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* 8K: 7680px and up */
+@media screen and (min-width: 7680px) {
+  html {
+    font-size: 32px;
+  }
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -113,6 +190,8 @@
   /* #dee2e6 - Border */
   --sidebar-ring: oklch(0.85 0.18 127);
   /* #b4e82e - Focus ring */
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
 }
 
 .dark {
@@ -197,22 +276,230 @@
 
   0%,
   100% {
-    transform: translateY(0);
+    transform: translate3d(0, 0, 0);
   }
 
   50% {
-    transform: translateY(-20px);
+    transform: translate3d(0, -20px, 0);
   }
 }
 
 .animate-float {
   animation: float 6s ease-in-out infinite;
+  will-change: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
 }
 
 .animate-float-slow {
   animation: float 8s ease-in-out infinite;
+  will-change: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
 }
 
 .animate-float-delayed {
   animation: float 7s ease-in-out 2s infinite;
+  will-change: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+
+/* iOS Safari GPU layer promotion for blur elements */
+.gpu-accelerated {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: auto;
+}
+
+/* Disable complex animations on mobile for performance */
+@media (max-width: 1024px) {
+
+  .animate-float,
+  .animate-float-slow,
+  .animate-float-delayed {
+    animation: none;
+  }
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+
+  .animate-float,
+  .animate-float-slow,
+  .animate-float-delayed {
+    animation: none;
+  }
+}
+
+/* CSS Animation Keyframes for replacing Framer Motion */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-up {
+  opacity: 0;
+  animation-name: fadeInUp;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.animate-fade-in-right {
+  opacity: 0;
+  animation-name: fadeInRight;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.animate-fade-in-left {
+  opacity: 0;
+  animation-name: fadeInLeft;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Stagger delays */
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-400 {
+  animation-delay: 400ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.delay-600 {
+  animation-delay: 600ms;
+}
+
+.delay-800 {
+  animation-delay: 800ms;
+}
+
+/* Duration utilities */
+.duration-400 {
+  animation-duration: 400ms;
+}
+
+.duration-600 {
+  animation-duration: 600ms;
+}
+
+.duration-800 {
+  animation-duration: 800ms;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-zoom-in {
+  opacity: 0;
+  animation-name: zoomIn;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Accordion Transition */
+@keyframes zoomRotate {
+  from {
+    opacity: 0;
+    transform: scale(0.95) rotate(-2deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.animate-zoom-rotate {
+  opacity: 0;
+  animation-name: zoomRotate;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.accordion-content {
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.duration-1000 {
+  animation-duration: 1000ms;
 }
